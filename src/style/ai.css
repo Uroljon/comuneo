@@ -1,0 +1,59 @@
+.ai {
+  padding-top: 20px;
+}
+
+.ai h4 {
+  margin-bottom: 25px;
+}
+
+.ai form {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ai input {
+  border: 1px solid #0d00ad;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-left: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  width: 500px;
+}
+
+
+.ai button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #0d00ad;
+  transition: 300ms;
+  cursor: pointer;
+  color: #0d00ad;
+}
+
+.ai button:hover {
+ border: 2px solid transparent;
+  transition: 300ms;
+  background-color: #0d00ad;
+  color: white;
+}
+
+.loader {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader svg {
+  width: 200px;
+}

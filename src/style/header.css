@@ -1,0 +1,103 @@
+.header {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(181, 178, 178);
+  position: relative;
+  z-index: 5;
+}
+
+.header__logo {
+  width: 168px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__account {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header__account span:nth-of-type(1) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #4338ca;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.aside {
+  width: 160px;
+  background-color: #f2f2fb;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  height: calc(100vh - 74px);
+
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.aside svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.aside__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 10px;
+  /* margin-bottom: 1.5rem; */
+  cursor: pointer;
+  transition: 300ms;
+}
+.aside__card:hover {
+  border: 2px solid #0d00ad;
+  transition: 300ms;
+}
+.aside__card h4 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  transition: 300ms;
+
+}
+
+.aside__card:hover  h4 {
+  color: #0D00AD;
+  transition: 300ms;
+}
+
+.aside__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  overflow-y: scroll;
+}
+
+
+.right__aside {
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right__aside button {
+  padding: 1rem;
+  background-color: #dad9f3;
+  transform: rotate(270deg);
+}

@@ -4,12 +4,11 @@ import "../style/header.css";
 import { useSelector } from "react-redux";
 function Header() {
   let isload = useSelector((store)=>store.isLoaded.name)
-  console.log(isload);
   let location = useLocation()
 
   return (
     <>
-      {location.pathname !=="/ai" && isload && alert("your doc is done")}
+      {/* {location.pathname !=="/ai" && isload && alert("your doc is done")} */}
       
       <header className="header">
         <div className="container">

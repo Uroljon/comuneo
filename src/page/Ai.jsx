@@ -2,14 +2,17 @@ import { useRef, useState } from "react";
 import "../style/ai.css";
 import { useDispatch } from "react-redux";
 import { getTheData } from "../utils/data";
+import { useNavigate } from "react-router-dom";
 
 function Ai() {
-  let dispatch = useDispatch()
+  let dispatch = useDispatch();
   const [isLoaded, setIsLoaded] = useState(true);
   let input = useRef();
+  let navigate  = useNavigate()
   async function handleSubmit(e) {
     e.preventDefault();
     setIsLoaded(false);
+
 
     // test environment
     let res = fetch("dfs.com", {
@@ -20,13 +23,15 @@ function Ai() {
     });
     if (res.status === 200) {
       // handle JSON
-      alert("hey !")
+      alert("hey !");
     } else {
       setTimeout(() => {
         setIsLoaded(true);
         console.log(isLoaded);
-        
-        dispatch(getTheData(isLoaded))
+
+        dispatch(getTheData(isLoaded));
+        navigate("/result")
+
       }, 5000);
     }
   }
@@ -105,6 +110,7 @@ function Ai() {
           </form>
         </div>
       </div>
+
     </>
   );
 }

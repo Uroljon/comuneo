@@ -7,6 +7,7 @@ import HomePage from './page/HomePage.jsx'
 import Ai from './page/Ai.jsx'
 import { Provider } from 'react-redux'
 import myStore from './utils/store.js'
+import ResultPgae from './page/ResultPgae.jsx'
 
 const myRouter = createBrowserRouter([{
   element:<App />,
@@ -21,6 +22,10 @@ const myRouter = createBrowserRouter([{
     {
       path:"/ai",
       element:<Ai />
+    },
+    {
+      path:'/result',
+      element:<ResultPgae />
     }
   ]
 }])

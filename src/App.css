@@ -22,3 +22,7 @@ a {
 .active {
   border: 2px solid #0d00ad !important;
 }
+
+.result {
+  margin-left: 200px;
+}

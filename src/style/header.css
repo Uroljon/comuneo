@@ -1,8 +1,8 @@
 .header {
   padding: 10px 0;
-  border-bottom: 1px solid rgb(181, 178, 178);
+  border-bottom: 1px solid rgb(229 231 235);
   position: relative;
-  z-index: 5;
+  height: auto;
 }
 
 .header__logo {
@@ -14,11 +14,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .header__account {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
+
 .header__account span:nth-of-type(1) {
   width: 2rem;
   height: 2rem;
@@ -34,50 +36,61 @@
 }
 
 .aside {
-  width: 160px;
-  background-color: #f2f2fb;
+  color: var(--color-primary);
+  width: var(--sidebar-width);
+  height: 100%;
+  background-color: var(--color-secondary-25);
   padding: 1rem;
-  position: fixed;
-  left: 0;
-  height: calc(100vh - 74px);
-
   display: flex;
   flex-direction: column;
-  z-index: 5;
+  justify-content: space-between;
+}
+
+.aside__top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .aside svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 20px;
+  height: auto;
 }
+
 .aside__card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 0.25rem;
   border: 2px solid transparent;
-  padding: 1rem;
+  padding: 1rem 0;
   border-radius: 10px;
-  /* margin-bottom: 1.5rem; */
   cursor: pointer;
-  transition: 300ms;
+  transition: 200ms;
 }
+
+.aside__card *{
+  color: var(--color-primary);
+}
+
+.aside__card.active {
+  border-color: var(--color-secondary);
+  background-color: var(--color-secondary-50);
+}
+
+.aside__card.active * {
+  color: var(--color-secondary);
+}
+
 .aside__card:hover {
-  border: 2px solid #0d00ad;
-  transition: 300ms;
+  background-color: var(--color-secondary-50);
 }
+
 .aside__card h4 {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 500;
-  transition: 300ms;
-
-}
-
-.aside__card:hover  h4 {
-  color: #0D00AD;
-  transition: 300ms;
 }
 
 .aside__wrapper {
@@ -88,16 +101,31 @@
 }
 
 
-.right__aside {
+.widgets {
   position: fixed;
   bottom: 50px;
-  right: 0;
+  right: 0px;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  transform: rotate(270deg) translate(25%, 150%);
 }
-.right__aside button {
+
+.widgets button {
   padding: 1rem;
-  background-color: #dad9f3;
-  transform: rotate(270deg);
+  background-color: var(--color-secondary-50);
+  color: var(--color-clickable);
+  border-radius: 0.75rem;
+  display: inline-flex;
+  width: max-content;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  gap: 5px;
+}
+
+.widgets button svg {
+  display: block;
+  width: 16px;
 }

@@ -116,8 +116,8 @@ function Ai() {
 
         <div className="ai">
           <div className="container">
-            <h4>Upload your PDF</h4>
-            <h1>Comuneo AI</h1>
+            <h1>Let AI Analyze Your File</h1>
+            <h4>Upload your document and we’ll automatically generate structured action fields, projects, and indicators for you.</h4>
             <form onSubmit={(e) => handleSubmit(e)}>
               <input ref={input} type="file" multiple required />
               <button type="submit">Upload</button>

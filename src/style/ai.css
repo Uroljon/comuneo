@@ -3,7 +3,8 @@
 }
 
 .ai h4 {
-  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: normal;
 }
 
 .ai form {
@@ -12,6 +13,9 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  border: 1px solid #c6cadd;
+  border-radius: 0.75rem;
+  padding: 4rem;
 }
 
 .ai input {

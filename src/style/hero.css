@@ -1,0 +1,45 @@
+.hero {
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  color: var(--color-primary);
+}
+
+.hero .container {
+  display: flex;
+  padding: 0;
+}
+
+.hero__content,
+.hero__image {
+  width: 50%;
+}
+
+.hero__subtitle {
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+}
+
+.hero__title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.hero .highlight {
+  color: var(--color-clickable);
+}
+
+.hero__text {
+  color: var(--color-primary-75);
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+
+.hero__image img {
+  width: 350px;
+  float: right;
+  position: absolute;
+  top: 10%;
+  right: -2%;
+}

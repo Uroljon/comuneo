@@ -1,9 +1,51 @@
+:root {
+  --sidebar-width: 160px;
+  --color-background: #FBFAFF;
+  --color-clickable: #0d00ad;
+  --color-clickable-25: #eeedfa;
+  --color-clickable-5: #0d00ad0d;
+  --color-table-header: #8480ce;
+  --color-table-header-text: #eeedfa;
+  --color-primary: #0a0909;
+  --color-primary-90: #383838;
+  --color-primary-75: #606060;
+  --color-primary-50: #A5A5A5;
+  --color-primary-25: #CCCCCC;
+  --color-primary-2: #EDEDED;
+  --secondary: #0D00AD;
+  --color-secondary: #0D00AD;
+  --color-secondary-90: #8480ce;
+  --color-secondary-75: #aface4;
+  --color-secondary-50: #dad9f3;
+  --color-secondary-25: #f2f2fb;
+  --color-secondary-2: #FFFFFF;
+  --color-partner: #790009FF;
+  --color-partner-25: #79000940;
+  --color-partner-5: #7900090D;
+  --color-partner-2: #79000905;
+  --color-status-positive: #00ce37FF;
+  --color-status-neutral: #ffbc05FF;
+  --color-status-negative: #ff0000FF;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
 }
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 li {
   list-style: none;
 }
@@ -16,13 +58,15 @@ a {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px ;
+  padding: 0 15px;
 }
 
-.active {
-  border: 2px solid #0d00ad !important;
+.layout {
+  display: flex;
+  flex-grow: 1;
 }
 
-.result {
-  margin-left: 200px;
+main {
+  flex-grow: 1;
+  padding: 1.5rem;
 }

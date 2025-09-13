@@ -25,7 +25,6 @@
   width: 500px;
 }
 
-
 .ai button {
   width: 100px;
   height: 40px;
@@ -38,7 +37,7 @@
 }
 
 .ai button:hover {
- border: 2px solid transparent;
+  border: 2px solid transparent;
   transition: 300ms;
   background-color: #0d00ad;
   color: white;
@@ -61,5 +60,4 @@
 .acc {
   margin-left: 200px;
   margin-top: 100px;
-  
 }

@@ -1,12 +1,65 @@
-# React + Vite
+# Comuneo - CURATE Visualization Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based visualization dashboard for the CURATE PDF extraction system, showcasing entity extraction and relationship mapping capabilities.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
 
-## Expanding the ESLint configuration
+### Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd comuneo
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Running the Project
+
+#### Development Mode
+Start the development server with hot module replacement:
+```bash
+npm run dev
+```
+The application will be available at `http://localhost:5173` (or the port shown in terminal).
+
+#### Production Build
+Build the application for production:
+```bash
+npm run build
+```
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+### Other Commands
+
+- **Run ESLint:** `npm run lint`
+
+## Tech Stack
+
+- **React 19** - UI framework
+- **Vite** - Build tool and dev server
+- **Redux Toolkit** - State management
+- **React Router v7** - Routing
+- **ESLint** - Code linting
+
+## Project Structure
+
+```
+src/
+├── component/   # Reusable UI components
+├── page/        # Route page components
+├── utils/       # Redux store and utilities
+├── style/       # Global styles
+└── assets/      # Static assets
+```

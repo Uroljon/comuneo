@@ -1,0 +1,3302 @@
+{
+  "action_fields": [
+    {
+      "id": "af_1",
+      "content": {
+        "title": "Regensburg-Plan 2040 (Stadtentwicklungsplan)",
+        "description": "Übergeordneter strategischer Stadtentwicklungsplan der Stadt Regensburg, der Herausforderungen, Handlungsfelder, Leitprojekte und ein räumliches Leitbild für die Entwicklung bis 2040 beschreibt. Ergänzung: Der Plan benennt zentrale Herausforderungen wie hohe Wohnungsnachfrage, steigende Miet- und Immobilienpreise, schwindende Flächenreserven und Flächenkonkurrenzen, Rückgang der Biodiversität, ein stark belastetes Verkehrssystem sowie einen sich abzeichnenden Mangel an Arbeitskräften. Bis 2040 müssen verbleibende Flächenreserven im Innen- und Außenbereich mobilisiert werden; die Stadt wird dichter, höher und kompakter und muss gleichzeitig eine ausreichende Versorgung mit Grün- und Freiflächen sicherstellen. Ergänzung: Grundlage der künftigen Stadtentwicklung ist ein integrierter Ansatz mit dem Ziel, die Stadt „im Zusammenhang\" zu denken; es bedarf ganzheitlicher Strategien und eines abgestimmten Handelns aller am Prozess der Stadtentwicklung beteiligten Personen und Institutionen, auch über die Stadtgrenzen hinaus.",
+        "source_pages": [
+          1
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "af_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_4",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_6",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_7",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_13",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_14",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_15",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_17",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_8",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "af_9",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "af_10",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "af_16",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_4",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_2",
+      "content": {
+        "title": "Die grüne und resiliente Stadt",
+        "description": "Handlungsfeld, das Raumstruktur, Städtebau, Baukultur, Quartiersentwicklung, Energie/Klimaschutz, Ökologie und Mobilität mit Blick auf Klimaanpassung und Resilienz zusammenfasst.",
+        "source_pages": [
+          1
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_16",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_22",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_25",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_26",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_4",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_6",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_20",
+          "confidence_score": 0.78
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_15",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_16",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_5",
+          "confidence_score": 0.78
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_19",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_21",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_24",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "af_3",
+      "content": {
+        "title": "Raumstruktur, Städtebau, Baukultur und Quartiersentwicklung",
+        "description": "Strategischer Bereich zur Steuerung von Raum- und Quartiersentwicklung, Baukultur und städtebaulicher Strukturierung im Planungszeitraum.",
+        "parent_action_field_name": "Die grüne und resiliente Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_4",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_20",
+          "confidence_score": 0.72
+        },
+        {
+          "target_id": "proj_16",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "af_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_5",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_15",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_4",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "af_4",
+      "content": {
+        "title": "Energie und Klimaschutz",
+        "description": "Handlungsfeld zur Reduktion des Energieverbrauchs, Dekarbonisierung und Anpassung an den Klimawandel mit höchster Priorität im Regensburg-Plan 2040.",
+        "parent_action_field_name": "Die grüne und resiliente Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_15",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_17",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_18",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_16",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_15",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_6",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_5",
+      "content": {
+        "title": "Ökologie",
+        "description": "Handlungsfeld zur Sicherung und Entwicklung ökologischer Vielfalt, Schutz von Grün- und Freiflächen sowie Förderung der Biodiversität.",
+        "parent_action_field_name": "Die grüne und resiliente Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_19",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_20",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_21",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_24",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_22",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_25",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_26",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_16",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_56",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_6",
+      "content": {
+        "title": "Mobilität",
+        "description": "Handlungsfeld mit Fokus auf eine Verlagerung hin zum Umweltverbund, Stärkung von ÖPNV, Radverkehr und Schiene sowie auf vernetzte Stadt-Umland-Verkehrslösungen. Ergänzung: Zur Veränderung der Mobilität zugunsten des Umweltverbundes gehört die Förderung von Dezentralisierung und die Schaffung von Quartierszentren, um eine Stadt der kurzen Wege, Verkehrsvermeidung, Freiflächenversorgung und geringere Emissionen zu erreichen.",
+        "parent_action_field_name": "Die grüne und resiliente Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_4",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_5",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_6",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_7",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_27",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_28",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "proj_29",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "ind_10",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_9",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_61",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "af_7",
+      "content": {
+        "title": "Die produktive und smarte Stadt",
+        "description": "Handlungsfeld zur Förderung von Wirtschaft, Wissenschaft, Digitalisierung, Smart-City-Ansätzen und touristischer Entwicklung.",
+        "source_pages": [
+          1
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "af_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_10",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_8",
+      "content": {
+        "title": "Wirtschaft und Wissenschaft",
+        "description": "Handlungsfeld zur Stärkung der wirtschaftlichen Basis und der Wissenschafts- und Forschungsstandorte in Regensburg.",
+        "parent_action_field_name": "Die produktive und smarte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "ind_4",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "af_9",
+      "content": {
+        "title": "Die digitale und smarte Stadt",
+        "description": "Handlungsfeld zur digitalen Transformation als Erfolgsfaktor und zur Förderung smarter, technologiegestützter Lösungen für städtische Herausforderungen. Ergänzung: Die digitale Transformation ist als Grundlage und Schlüsseltechnologie für die erfolgreiche Transformation zu verstehen und muss sozial gemanagt werden. Dabei sind digitale Barrierefreiheit, Chancengleichheit und Selbstbestimmtheit sicherzustellen; die Verwaltung muss den digitalen Zugang zu nutzerorientierten und zielgruppenspezifischen Angeboten für die gesamte Stadtgesellschaft ermöglichen.",
+        "parent_action_field_name": "Die produktive und smarte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_9",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "af_10",
+      "content": {
+        "title": "Tourismus",
+        "description": "Handlungsfeld zur Steuerung und Entwicklung des Tourismus unter Berücksichtigung von Nachhaltigkeitszielen und stadtverträglichen Angebotsstrategien.",
+        "parent_action_field_name": "Die produktive und smarte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "af_11",
+      "content": {
+        "title": "Die gerechte Stadt",
+        "description": "Handlungsfeld, das Themen sozialer Gerechtigkeit, Wohnen, Bildung, Kultur, Integration und regionale Zusammenarbeit adressiert.",
+        "source_pages": [
+          1
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "af_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_13",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_14",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_15",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_16",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "af_17",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_12",
+      "content": {
+        "title": "Wohnen",
+        "description": "Handlungsfeld zur Sicherstellung von Wohnraumversorgung, Steuerung von Wohnungsbau und sozialverträglicher Stadtentwicklung.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_13",
+      "content": {
+        "title": "Soziales, Integration und Gesellschaft",
+        "description": "Handlungsfeld zur Förderung sozialer Teilhabe, Integration und gesellschaftlichem Zusammenhalt.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_12",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_14",
+      "content": {
+        "title": "Bildung und Betreuung",
+        "description": "Handlungsfeld zur Weiterentwicklung von Bildungs- und Betreuungsinfrastruktur zur Unterstützung der Stadtgesellschaft.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_10",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_15",
+      "content": {
+        "title": "Kultur",
+        "description": "Handlungsfeld zur Förderung kultureller Angebote und kultureller Infrastruktur in Regensburg.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "af_16",
+      "content": {
+        "title": "Sport und Freizeit",
+        "description": "Handlungsfeld zur Entwicklung von Sport- und Freizeitangeboten sowie entsprechender Infrastruktur.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "af_17",
+      "content": {
+        "title": "Regionale Zusammenarbeit",
+        "description": "Handlungsfeld zur Kooperation mit Umlandgemeinden und zur Abstimmung regionaler Entwicklungsfragen. Ergänzung: Konkretisierung der Schwerpunktfelder der regionalen Zusammenarbeit bei der Siedlungsentwicklung: enge Kooperation bei Klimawandel und Energiewende; Orientierung der Siedlungsentwicklung an leistungsfähigen ÖPNV-Haltepunkten und Hauptorten der Gemeinden; kooperatives Management der Ausgleichsflächen; Veränderung der Stadt‑Umland‑Verkehre zugunsten des Umweltverbunds und emissionsfreier Mobilität.",
+        "parent_action_field_name": "Die gerechte Stadt"
+      },
+      "connections": [
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_27",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_6",
+          "confidence_score": 0.78
+        },
+        {
+          "target_id": "proj_20",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_29",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_10",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_16",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_28",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_5",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_7",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_4",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_11",
+          "confidence_score": 0.8
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "content": {
+        "title": "Green Deal Regensburg",
+        "description": "Städtische Initiative zur Erreichung gesamtstädtischer Klimaneutralität mit dem Ziel, bereits 2035 klimaneutral zu sein. Verbindet Klimaschutz- und Dekarbonisierungsmaßnahmen und bindet Wissenschaft, Wirtschaft, Verwaltung und Zivilgesellschaft ein. Ergänzung: Die Stadt wird zusammen mit Partnern große Anstrengungen unternehmen, die ansässigen Betriebe mit regenerativ erzeugter Energie zu versorgen, um den Wandel hin zu einer ‚grünen‘, CO2-neutralen Wirtschaft zu forcieren. Ergänzung: Im Rahmen des Green Deal sind Maßnahmen geplant, die ansässigen Betriebe zusammen mit Partnern verstärkt mit regenerativ erzeugter Energie zu versorgen, um den Wandel hin zu einer ‚grünen‘, CO2‑neutralen Wirtschaft zu forcieren.",
+        "parent_action_field_name": "Energie und Klimaschutz",
+        "source_pages": [
+          3
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.95
+        },
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_6",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_48",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_49",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_46",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_47",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_41",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "proj_2",
+      "content": {
+        "title": "Freiraumentwicklungskonzept",
+        "description": "Städtisches Freiraumentwicklungskonzept, das als Grundlage für die Weiterentwicklung des Freiraumsystems dient und die Versorgung mit Grün- und Freiflächen steuert. Ergänzung: Das Freiraumentwicklungskonzept dient als Vorgabe für die verpflichtende Herstellung öffentlich zugänglicher Grünflächen bei neuen Baugebieten und ist damit Grundlage zur Sicherstellung wohnungsnaher Grünausstattung bei Innen- und Außenentwicklungen. Ergänzung: Das Freiraumentwicklungskonzept benennt einen Zielwert von rund 20 m² erholungsrelevanter Grünfläche pro Einwohner und sieht die Erstellung eines Grünflächenpools zum Ausgleich der Differenz zum Zielwert vor.",
+        "parent_action_field_name": "Ökologie",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_7",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_1",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_12",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_35",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_36",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_41",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_42",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_46",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_3",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "proj_22",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_56",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_55",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "proj_3",
+      "content": {
+        "title": "Stadtbahnsystem (Planung und Errichtung)",
+        "description": "Aufbau eines Stadtbahnsystems, das innerhalb des Stadtgebiets mehrere Stellen optimal mit regionalem Eisenbahn- und Busverkehr verknüpft und perspektivisch in Umlandgemeinden erweitert werden kann. Ergänzung: Die Trasse der geplanten Stadtbahn stellt langfristig die dritte bedeutende Entwicklungsachse im Stadtgebiet dar. Im äußeren Stadtnorden liegt nördlich der Frauenzellstraße ein Endhalte- und Verknüpfungspunkt mit dem Regionalverkehr. Richtung Süden folgt die Trasse weitgehend der Dienstleistungsachse und erschließt OTH, TechCampus, Universität und Universitätsklinikum. Ein zweiter Stadtbahnast Richtung Südosten entlang der Landshuter Straße soll das neue Stadtquartier in der ehemaligen Prinz-Leopold- und Pionier-Kaserne sowie das Urbane Gebiet an der Grunewaldstraße anbinden. Ergänzung: Für die Infrastruktur einer Stadtbahn sind in der Regel Flächen durch Neuaufteilung des bestehenden Verkehrsraums bereitzustellen. Bis zur Inbetriebnahme der Stadtbahn bedarf es der kontinuierlichen Anpassung und Verbesserung des ÖPNV-Angebots als Zwischenlösung.",
+        "parent_action_field_name": "Mobilität",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_2",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_59",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_21",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_28",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_30",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.72
+        },
+        {
+          "target_id": "proj_8",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_15",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_6",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_42",
+          "confidence_score": 0.7
+        },
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "proj_4",
+      "content": {
+        "title": "Neuer Zentraler Omnibusbahnhof (ZOB)",
+        "description": "Errichtung eines neuen Zentralen Omnibusbahnhofs als Bestandteil der Stärkung des ÖPNV und der Vernetzung von Bus- und Schienenverkehr.",
+        "parent_action_field_name": "Mobilität",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_59",
+          "confidence_score": 0.65
+        },
+        {
+          "target_id": "proj_13",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_58",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_5",
+      "content": {
+        "title": "Ausbau der Radwegeinfrastruktur",
+        "description": "Gezielter Ausbau und Qualitätsverbesserung der Radwegeinfrastruktur zur Stärkung des Radverkehrsanteils als Teil der Priorisierung des Umweltverbundes.",
+        "parent_action_field_name": "Mobilität",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_3",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "proj_6",
+      "content": {
+        "title": "S-Bahn-ähnlicher Verkehr auf Eisenbahnstrecken",
+        "description": "Einführung eines s-Bahnähnlichen Angebots auf vorhandenen Eisenbahnstrecken zur Stärkung der Stadt‑Umland‑Verknüpfung und des Umweltverbundes.",
+        "parent_action_field_name": "Mobilität",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_4",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_7",
+      "content": {
+        "title": "Expressbuslinien und Taktverdichtung",
+        "description": "Einführung von Expressbuslinien und Taktverdichtungen zur Verbesserung der Erschließung und zur Stärkung des Umweltverbundes sowohl innerhalb der Stadt als auch im Stadt‑Umland‑Verkehr.",
+        "parent_action_field_name": "Mobilität",
+        "source_pages": [
+          4
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_5",
+          "confidence_score": 0.88
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_59",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_8",
+      "content": {
+        "title": "Siedlungs- und Quartiersentwicklung – Wachstum aktiv, verantwortungsbewusst und intelligent managen",
+        "description": "Programm zur strategischen Steuerung von Bevölkerungs- und Flächenwachstum: Sicherstellung von Wohnraumversorgung und Infrastruktur, Förderung nachhaltiger Innenentwicklung sowie Entkopplung von Wachstum und Ressourcenverbrauch. Ergänzung: Fokus auf konsequente Ausschöpfung der Innenentwicklungspotenziale (Nachverdichtung, Baulückenschließung) unter dem Leitbild der 'doppelten Innenentwicklung' mit einer auszubalancierenden Schaffung von Wohnraum und qualifizierten, wohnungsnahen Grünflächen; Anerkennung, dass Innenentwicklung allein nicht ausreichen wird und daher ergänzende Außenentwicklung vorbereitet werden muss (insbesondere Flächen südlich der A 3 und im Stadtnorden). Parallel ist die planerische, rechtliche und ökonomische Vorbereitung der Inanspruchnahme von Außenflächen sowie die Sicherstellung bzw. Bereitstellung ausreichender Ausgleichsflächen erforderlich. Zudem sind Planungsinstrumente wie Bebauungspläne und Vorkaufsrechte zur Schaffung großer Parkanlagen gezielt einzusetzen. Gesundheitliche Aspekte (Gebäudeausrichtung, Rückzugsräume, Barrierefreiheit, Hitzeschutz) sollen in der Quartiersplanung stärker berücksichtigt werden. Ergänzung: Explizite Ausrichtung auf konsequente Ausschöpfung sämtlicher Potenziale der Innenentwicklung (Nachverdichtung und Baulückenschließung) als vorrangige Strategie; Betonung einer ‚doppelten Innenentwicklung‘, d. h. Balance zwischen Schaffung von Wohnraum und qualitätsvollen, wohnungsnahen Grünflächen. Ergänzende Aussage zur gesteuerten Außenentwicklung: Prüfung und Vorbereitung von Flächen, insbesondere südlich der Autobahn A 3 und in Teilen des Stadtnordens, sowie die planerische, rechtliche und ökonomische Vorbereitung dieser Außenentwicklung. Parallel wird die Bereitstellung ausreichender Ausgleichsflächen gefordert. Nutzung planungsrechtlicher Instrumente (z. B. Bebauungspläne, Vorkaufsrecht) zur Schaffung stadtweit bedeutsamer Parkanlagen wird genannt. Ergänzung: Für die Stadtentwicklung der kommenden 20 Jahre wird ein teilweiser Paradigmenwechsel beschrieben: Neben Innenentwicklung müssen verstärkt Außenentwicklungspotenziale erschlossen werden, da Innenentwicklungspotenziale künftig weitgehend ausgeschöpft sein werden. Dies begründet die Notwendigkeit strategischer Steuerung von Siedlungs- und Quartiersentwicklung und macht eine enge Abstimmung mit leistungsfähigen ÖPNV-Angeboten erforderlich."
+      },
+      "connections": [
+        {
+          "target_id": "msr_6",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_11",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_10",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_40",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_12",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_14",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_13",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_19",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_57",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_35",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_43",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_44",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_39",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_7",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_17",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_15",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_16",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_42",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_41",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_27",
+          "confidence_score": 0.82
+        },
+        {
+          "target_id": "proj_3",
+          "confidence_score": 0.78
+        },
+        {
+          "target_id": "proj_1",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_28",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "proj_5",
+          "confidence_score": 0.72
+        },
+        {
+          "target_id": "proj_2",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_18",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_38",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_20",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_21",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_22",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_23",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_24",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_25",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_26",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_27",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_28",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_29",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_30",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_31",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_32",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_34",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_14",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_37",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_9",
+      "content": {
+        "title": "Smart-City-Strategie",
+        "description": "Entwicklung und Umsetzung einer umfassenden Smart-City-Strategie zur Förderung von Digitalisierung in der Stadtentwicklung und bürgernahen Dienstleistungen (E-Government), unter Einbindung aller Akteure und mit sozialverträglichen Maßnahmen zur Sicherstellung digitaler Teilhabe. Ergänzung: Digitalisierung als Querschnittsaufgabe und Gemeinschaftsaufgabe; Förderung der Digitalisierung in sämtlichen Feldern der Stadtentwicklung und bei bürgernahen Dienstleistungen (E‑Government). Hinweis auf die soziale Gestaltung des Digitalisierungsprozesses mit dem Ziel, alle Bevölkerungsgruppen mitzunehmen und das Tempo der Veränderungen an Zielgruppen anzupassen."
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "proj_10",
+      "content": {
+        "title": "Ausbau von Bildungs- und Betreuungsangeboten 2040",
+        "description": "Langfristiges Programm zum Ausbau von Bildungs- und Betreuungsinfrastruktur sowie zur Sicherstellung bedarfsgerechter Jugendsozialarbeit und sozialer Dienste an Schulen, um Bildungsgerechtigkeit und Übergänge in Ausbildung und Beruf zu verbessern."
+      },
+      "connections": []
+    },
+    {
+      "id": "proj_11",
+      "content": {
+        "title": "Beteiligungsprozess Regensburg-Plan 2040 (Verwaltungs- und Öffentlichkeitsbeteiligung)",
+        "description": "Organisation und Durchführung umfassender Beteiligungsformate im Rahmen der Neuaufstellung des Regensburg-Plans 2040: stadtinterne Verwaltungsbeteiligung mit 16 Themenpaten, Bürgerbefragung 2019 (10.000 angeschriebene Haushalte, ~2.700 Rückmeldungen), Online-Dialoge, Präsenzformate 2021 sowie fachliche Begleitung durch ein externes Kommunikationsbüro (Zebralog GmbH)."
+      },
+      "connections": [
+        {
+          "target_id": "msr_22",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "proj_23",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_12",
+      "content": {
+        "title": "Umsetzung Agenda 2030 / SDG-Verankerung in Regensburg",
+        "description": "Programmatik zur lokalen Umsetzung der Agenda 2030 und der 17 Sustainable Development Goals; beinhaltet die Zuordnung der SDGs zu Kapiteln des Stadtentwicklungsplans sowie die politische Selbstverpflichtung der Stadt (Unterzeichnung der Musterresolution am 28. Juli 2021 durch die Oberbürgermeisterin). Ergänzung: Mit der Unterzeichnung der Musterresolution „Agenda 2030 für nachhaltige Entwicklung: Nachhaltigkeit auf kommunaler Ebene gestalten“ des Deutschen Städtetags und des Rats der Gemeinden und Regionen Europas (RGRE) am 28. Juli 2021 durch Oberbürgermeisterin Gertrud Maltz-Schwarzfischer hat sich die Stadt Regensburg zur Umsetzung der Nachhaltigkeitsziele der Agenda 2030 auf lokaler Ebene verpflichtet."
+      },
+      "connections": []
+    },
+    {
+      "id": "proj_13",
+      "content": {
+        "title": "Kulturlände – Zentrum der Kunst und Kultur an der Donaulände",
+        "description": "Konzeption und Prüfung eines Zentrums der Kunst und Kultur (\"Kulturlände\") nördlich des Marinaforums an der Donaulände als Ergänzung der Freizeit- und Kulturachse; mögliche Entwicklung von kulturellen Einrichtungen mit überregionaler Strahlkraft zur Stärkung des Nutzungsmixes in der östlichen Altstadt.",
+        "tags": [
+          "Kultur",
+          "Freizeit- und Kulturachse"
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_33",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_34",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_14",
+      "content": {
+        "title": "Pürkelgut-Park: Schaffung und Verknüpfung großer Parkanlagen",
+        "description": "Konzeption und Anlage eines neuen großen Parks ('Pürkelgut-Park') sowie Verknüpfung dieses Parks mit den Grünanlagen in der ehemaligen Prinz-Leopold-Kaserne, mit Grünstrukturen in Burgweinting und dem 'Weintinger Hölzl' zur Ausgleichung von Defiziten bei großen Grünanlagen, insbesondere im Stadtosten."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_12",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "proj_15",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_15",
+      "content": {
+        "title": "Modellprojekte energetische Sanierung: Margaretenau & Innovationsquartier Prinz‑Leopold‑Kaserne",
+        "description": "Bündelung und Verstetigung der exemplarischen Maßnahmen zur energetischen Sanierung und CO2‑Reduktion am Beispiel der Wohnungsbestände der Baugenossenschaft 'Margaretenau' und des Innovationsquartiers 'ehemalige Prinz‑Leopold‑Kaserne' als Modellprojekte für klimagerechte Bestands‑ und Neubauentwicklung."
+      },
+      "connections": [
+        {
+          "target_id": "ind_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_49",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_50",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "proj_16",
+      "content": {
+        "title": "Entwicklung einer umfassenden Klimaanpassungsstrategie",
+        "description": "Erarbeitung und Umsetzung einer kommunalen Klimaanpassungsstrategie zur Bündelung aller Aktivitäten zur Anpassung an Hitze, Starkregen, Trockenperioden und weitere Klimaauswirkungen; enthält Maßnahmen zur Starkregenvorsorge, Durchlüftung, Grünflächenentwicklung und Bürgerunterstützung."
+      },
+      "connections": [
+        {
+          "target_id": "msr_8",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_51",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_52",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_55",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_53",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_7",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_54",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_57",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_13",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "msr_45",
+          "confidence_score": 0.75
+        }
+      ]
+    },
+    {
+      "id": "proj_17",
+      "content": {
+        "title": "Teilenergienutzungsplan für Gewerbegebiete Regensburg‑Ost",
+        "description": "Erstellung eines Teilenergienutzungsplans für die Gewerbegebiete von Regensburg‑Ost zur gezielten Nutzung von Abwärme, Potenzialanalyse und Planung energetischer Infrastruktur."
+      },
+      "connections": [
+        {
+          "target_id": "ind_6",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_46",
+          "confidence_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "proj_18",
+      "content": {
+        "title": "Fahrplan klimaneutrale Stadtverwaltung und städtische Töchter (2030/2035)",
+        "description": "Entwicklung und Verabschiedung eines Zeitplans und Maßnahmenpakets zur Erreichung der Klimaneutralität der Stadtverwaltung bis 2030 und der städtischen Töchter sowie der Gesamtstadt bis 2035."
+      },
+      "connections": [
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "proj_19",
+      "content": {
+        "title": "Ausweisung Landschaftsschutzgebiet Donauauen",
+        "description": "Leitprojekt zur rechtlichen Ausweisung eines Landschaftsschutzgebiets 'Donauauen' zur Sicherung ökologisch wertvoller Auenräume und zum Schutz flussnaher Habitaträume."
+      },
+      "connections": [
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_39",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_57",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_20",
+      "content": {
+        "title": "Masterplan Biodiversität",
+        "description": "Erstellung eines Masterplans Biodiversität zur strategischen Planung und Verstärkung der biologischen Vielfalt in der Stadt einschließlich Schutz- und Vernetzungsmaßnahmen."
+      },
+      "connections": [
+        {
+          "target_id": "msr_57",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_35",
+          "confidence_score": 0.75
+        },
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_21",
+      "content": {
+        "title": "Ökologische Aufwertung Flächen an der Donau (Äußere Wiener Straße & Schwabelweis)",
+        "description": "Konkretes Aufwertungsprojekt für Flächen an der Donau im Bereich Äußere Wiener Straße und Schwabelweis zur ökologischen Verbesserung der Uferbereiche und Förderung der Biodiversität."
+      },
+      "connections": [
+        {
+          "target_id": "msr_8",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_9",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_51",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_22",
+      "content": {
+        "title": "Schaffung öffentliche Grünfläche Weichs-Ost",
+        "description": "Anlegung einer öffentlichen Grünfläche im ehemaligen Baugebiet Weichs-Ost zur Kompensation von Grünflächenverlusten und zur Stärkung der lokalen Erholungs- und Aufenthaltsqualitäten."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_9",
+          "confidence_score": 0.9
+        }
+      ]
+    },
+    {
+      "id": "proj_23",
+      "content": {
+        "title": "Aufwertung Flächen am Regen beim SV Sallern",
+        "description": "Aufwertungsprojekt für die Flächen am Regen beim SV Sallern mit Zielen für Freizeitnutzung, ökologische Aufwertung und Umweltbildung."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_22",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_60",
+          "confidence_score": 0.9
+        },
+        {
+          "target_id": "msr_9",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_8",
+          "confidence_score": 0.8
+        }
+      ]
+    },
+    {
+      "id": "proj_24",
+      "content": {
+        "title": "Initiierung ökologischer landwirtschaftlicher Betriebe",
+        "description": "Programm zur Initiierung und Förderung ökologisch wirtschaftender landwirtschaftlicher Betriebe durch die Stadt Regensburg, unter anderem zur Förderung pestizidfreier Bewirtschaftung und regionaler Vermarktung."
+      },
+      "connections": []
+    },
+    {
+      "id": "proj_25",
+      "content": {
+        "title": "Zero Waste Regensburg",
+        "description": "Projekt 'Zero Waste Regensburg' zur stärkeren Vermeidung, Trennung und Wiederverwertung von Abfällen sowie zur Ausweitung der Sammelinfrastruktur und kommunaler Vorbildfunktionen."
+      },
+      "connections": []
+    },
+    {
+      "id": "proj_26",
+      "content": {
+        "title": "Zweiter Recyclinghof im Stadtnorden",
+        "description": "Errichtung eines zweiten Recyclinghofs im Stadtnorden zur Entlastung bestehender Anlagen und zur besseren Versorgung und Annahmebedingungen für wachsende Abfallmengen."
+      },
+      "connections": []
+    },
+    {
+      "id": "proj_27",
+      "content": {
+        "title": "Umsetzung EU-Anforderungen: Multimodale Knoten & Plan nachhaltiger urbaner Mobilität",
+        "description": "Programm zur Erarbeitung und Umsetzung der durch EU-Vorgaben geforderten Nachweise: Schaffung mindestens eines multimodalen Personenverkehrsknotens und eines multimodalen Güterterminals bis 2040 sowie Erstellung eines Plans für nachhaltige urbane Mobilität bis 2025. Das Projekt umfasst Planung, Koordination mit regionalen Akteuren und zeitliche Nachverfolgung der Anforderungen."
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "msr_58",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "msr_20",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_10",
+          "confidence_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "proj_28",
+      "content": {
+        "title": "Elektromobilitätsförderprogramm und Ladeinfrastruktur-Ausbau",
+        "description": "Programm zur weiteren Förderung der Elektromobilität in Regensburg: Ausbau öffentlich zugänglicher Ladepunkte, begleitende Förderprogramme, Koordination mit Car-/E-Car-/E-Bike-Sharing-Anbietern (z. B. Stadtwerk.Earl) und Sicherstellung, dass das Angebot mit der Nachfrage mitwächst und in Einklang mit dem ÖPNV entwickelt wird. Berücksichtigung von Stellplatz-, Tarif- und räumlicher Vernetzung an Mobilitätsstationen.",
+        "tags": [
+          "Elektromobilität",
+          "Ladeinfrastruktur",
+          "Sharing",
+          "ÖPNV-Integration"
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "ind_10",
+          "confidence_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "proj_29",
+      "content": {
+        "title": "MaaS-Integration und Mobilitätsstationen",
+        "description": "Entwicklung und Einführung einer 'Mobility as a Service' (MaaS)-Strategie mit integrierten Tarifen, App-Lösungen und räumlich verteilten Mobilitätsstationen zur Verknüpfung von ÖPNV, Sharing‑Angeboten und mikro‑Mobilitätsmitteln; Ziel ist die Förderung multimodaler Mobilität und die Unterstützung der Verkehrswende.",
+        "tags": [
+          "MaaS",
+          "Digitalisierung",
+          "ÖPNV",
+          "Sharing"
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "msr_58",
+          "confidence_score": 0.78
+        },
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        },
+        {
+          "target_id": "ind_10",
+          "confidence_score": 0.8
+        }
+      ]
+    }
+  ],
+  "measures": [
+    {
+      "id": "msr_1",
+      "content": {
+        "title": "Schutz mikroklimatisch und ökologisch wertvoller Flächen",
+        "description": "Schutz und Bewahrung mikroklimatisch und ökologisch wertvoller Flächen trotz hohem Siedlungsdruck, um Artenvielfalt zu erhalten und Wärmebelastung zu reduzieren.",
+        "parent_project_name": "Freiraumentwicklungskonzept"
+      },
+      "connections": [
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 4,
+          "quote": "Trotz hohem Siedlungsdruck will die Stadt Regensburg mikroklimatisch und ökologisch wertvolle Flächen schützen, um eine möglichst große Artenvielfalt zu erhalten und der Wärmebelastung durch die Erderwärmung entgegenzuwirken."
+        }
+      ]
+    },
+    {
+      "id": "msr_2",
+      "content": {
+        "title": "Errichtung des Stadtbahnsystems",
+        "description": "Umsetzung des Stadtbahnsystems als zentraler Schritt zur Stärkung des Umweltverbundes und zur Verknüpfung mit regionalem Verkehr. Ergänzung: Umsetzung des Stadtbahnsystems erfordert in der Regel die Neuaufteilung vorhandenen Straßenraums zur Bereitstellung eigener Trassenflächen; bis zur Inbetriebnahme sind begleitende Verbesserungen und Anpassungen des ÖPNV erforderlich.",
+        "parent_project_name": "Stadtbahnsystem (Planung und Errichtung)"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 4,
+          "quote": "In einem zweiten Schritt wird das Stadtbahnsystem errichtet, das an mehreren Stellen im Stadtgebiet optimal mit dem regionalen Eisenbahn- und Busverkehr verknüpft sein wird und perspektivisch in größere Umlandgemeinden erweitert werden kann."
+        },
+        {
+          "page_number": 56,
+          "quote": "Für die Infrastruktur einer Stadtbahn, d. h. Führung auf eigener Trasse und im Straßenraum, sind Flächen in der Regel durch eine Neuaufteilung des bestehenden Verkehrsraumes bereitzustellen. Bis zur Inbetriebnahme der Stadtbahn bedarf es der kontinuierlichen Anpassung und Verbesserung des ÖPNV-Angebots."
+        },
+        {
+          "page_number": 57,
+          "quote": "Für die Infrastruktur einer Stadtbahn, d. h. Führung auf eigener Trasse und im Straßenraum, sind Flächen in der Regel durch eine Neuaufteilung des bestehenden Verkehrsraumes bereitzustellen. Bis zur Inbetriebnahme der Stadtbahn bedarf es der kontinuierlichen Anpassung und Verbesserung des ÖPNV-Angebots."
+        }
+      ]
+    },
+    {
+      "id": "msr_3",
+      "content": {
+        "title": "Ausbau des städtischen Radwegenetzes",
+        "description": "Lückenschluss und Qualitätsverbesserung zentraler Radachsen sowie Ausbau der Radinfrastruktur als wichtiger Baustein zur Erhöhung des Anteils des Umweltverbundes. Ergänzung: Ausbau des städtischen Radwegenetzes ausdrücklich im Kontext der Umsetzung des Radentscheids und sukzessiven Verwirklichung des Radhauptroutennetzes (vgl. Karte S.58).",
+        "parent_project_name": "Ausbau der Radwegeinfrastruktur"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 4,
+          "quote": "Die Stadtbahn, der neue Zentrale Omnibusbahnhof, neue Haltepunkte und Taktverdichtungen auf dem vorhandenen Schienennetz und der Ausbau der Radwegeinfrastruktur sind wichtige Bausteine auf dem Weg dahin."
+        },
+        {
+          "page_number": 56,
+          "quote": "Das Rad- und Fußwegenetz ist zu verbessern und zu ergänzen. Die Ziele des Radentscheids Regensburg, insbesondere die Verwirklichung des Radhauptroutennetzes (vgl. Karte S. 58) werden sukzessive umgesetzt."
+        },
+        {
+          "page_number": 58,
+          "quote": "Das Rad- und Fußwegenetz ist zu verbessern und zu ergänzen. Die Ziele des Radentscheids Regensburg, insbesondere die Verwirklichung des Radhauptroutennetzes (vgl. Karte S. 58) werden sukzessive umgesetzt."
+        }
+      ]
+    },
+    {
+      "id": "msr_4",
+      "content": {
+        "title": "Einführung eines s-Bahnähnlichen Verkehrs auf Eisenbahnstrecken",
+        "description": "Planung und Umsetzung eines s-Bahnähnlichen Verkehrsangebots als erster Schritt zur Stärkung des Stadt‑Umland‑Verkehrswegedeckels.",
+        "parent_project_name": "S-Bahn-ähnlicher Verkehr auf Eisenbahnstrecken"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 4,
+          "quote": "Eine Stärkung des Umweltverbundes beim Stadt-Umland-Verkehr wird in einem ersten Schritt durch den geplanten S-Bahnähnlichen Verkehr auf den Eisenbahnstrecken und die Einführung von Expressbuslinien erfolgen."
+        }
+      ]
+    },
+    {
+      "id": "msr_5",
+      "content": {
+        "title": "Einführung von Expressbuslinien",
+        "description": "Einrichtung von Expressbuslinien zur Verbesserung der Verknüpfung und als ergänzendes Angebot zum Schienenverkehr.",
+        "parent_project_name": "Expressbuslinien und Taktverdichtung"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 4,
+          "quote": "Eine Stärkung des Umweltverbundes beim Stadt-Umland-Verkehr wird in einem ersten Schritt durch den geplanten S-Bahnähnlichen Verkehr auf den Eisenbahnstrecken und die Einführung von Expressbuslinien erfolgen."
+        }
+      ]
+    },
+    {
+      "id": "msr_6",
+      "content": {
+        "title": "Nachverdichtung und Baulückenschließung zur Innenentwicklung",
+        "description": "Potenziale der Innenentwicklung konsequent ausschöpfen durch gezielte Nachverdichtung und Schließung von Baulücken, um den prognostizierten Siedlungsbedarf zu decken und Flächenverbrauch zu reduzieren. Ergänzung: Bei Nachverdichtung und Baulückenschließung ist das Prinzip der 'doppelten Innenentwicklung' zu beachten — Balance zwischen Schaffung von Wohnraum und qualifizierten, wohnungsnahen Grünflächen; ortsspezifische und qualitätsvolle Lösungen sind insbesondere bei Nachverdichtungen erforderlich. Ergänzung: Betonung der ausschöpfen­den Nutzung aller Potenziale der Innenentwicklung (Nachverdichtung und Baulückenschließung). Hervorhebung des Prinzips der doppelten Innenentwicklung mit der Zielsetzung, Schaffung von Wohnraum und qualifizierten Grünflächen im Wohnumfeld in Balance zu bringen.",
+        "parent_action_field_id": "af_3"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 12,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden."
+        },
+        {
+          "page_number": 12,
+          "quote": "Um den prognostizierten Siedlungsbedarf ... müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 13,
+          "quote": "Um den prognostizierten Siedlungsbedarf ... müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 12,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 13,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 14,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 15,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 16,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        },
+        {
+          "page_number": 17,
+          "quote": "Um den prognostizierten Siedlungsbedarf im Stadtgebiet abdecken zu können, müssen sämtliche Potenziale der Innenentwicklung in Form von Nachverdichtung und Baulückenschließung konsequent ausgeschöpft werden. Dabei ist im Sinne einer doppelten Innenentwicklung eine Balance zwischen der Schaffung von Wohnraum und qualifizierten Grünflächen im unmittelbaren Wohnumfeld zu finden."
+        }
+      ]
+    },
+    {
+      "id": "msr_7",
+      "content": {
+        "title": "Schaffung zusammenhängender Grünräume und grüner Verbindungskorridore",
+        "description": "Anlegen und Vernetzen möglichst großer, zusammenhängender Grünräume, insbesondere in Bereichen mit Versorgungsdefiziten, sowie Entwicklung grüner Verbindungskorridore zur Sicherung der Freiraumversorgung.",
+        "parent_project_id": "proj_2"
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 3,
+          "quote": "Ziel ist es, möglichst große, zusammenhängende Grünräume insbesondere in Bereichen mit Versorgungsdefiziten sowie grüne Verbindungskorridore zu schaffen."
+        }
+      ]
+    },
+    {
+      "id": "msr_8",
+      "content": {
+        "title": "Ausbau grüner und blauer Infrastrukturen zur Klimaanpassung",
+        "description": "Stärkung und Ausbau grüner und blauer Infrastrukturen in der Stadt zur Verbesserung des Klimaschutzes und zur Anpassung an die Folgen des Klimawandels, insbesondere zur Reduktion von Wärmebelastungen und zur Erhöhung der Resilienz.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 3,
+          "quote": "Um die Stadt und ihre Bewohner besser vor den Folgen des Klimawandels zu schützen, werden grüne und blaue Infrastrukturen verstärkt ausgebaut."
+        }
+      ]
+    },
+    {
+      "id": "msr_9",
+      "content": {
+        "title": "Herstellung öffentlich zugänglicher Grünflächen bei neuen Baugebieten",
+        "description": "Verpflichtende Herstellung von öffentlich zugänglichen Grünflächen in neuen Baugebieten gemäß den Vorgaben des Freiraumentwicklungskonzeptes.",
+        "parent_project_id": "proj_2"
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 12,
+          "quote": "In der Regel ist die Herstellung von öffentlich zugänglichen Grünflächen bei neuen Baugebieten nach den Vorgaben des Freiraumentwicklungskonzeptes verpflichtend."
+        }
+      ]
+    },
+    {
+      "id": "msr_10",
+      "content": {
+        "title": "Vorbereitung von Ausgleichsflächen bei Außenentwicklung",
+        "description": "Planerische, rechtliche und ökonomische Vorbereitung sowie Sicherstellung ausreichender Ausgleichsflächen parallel zur Siedlungsentwicklung. Ergänzung: Parallel zur Siedlungsentwicklung sind Vorkehrungen für die Bereitstellung ausreichender Ausgleichsflächen zu treffen; diese Vorbereitung ist Bestandteil der planerischen Aufgaben im Zuge von Außenentwicklungen."
+      },
+      "connections": [
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.9
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 12,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        },
+        {
+          "page_number": 13,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        },
+        {
+          "page_number": 14,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        },
+        {
+          "page_number": 15,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        },
+        {
+          "page_number": 16,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        },
+        {
+          "page_number": 17,
+          "quote": "Parallel zur Siedlungsentwicklung muss die Stadt Regensburg Vorkehrungen für die Bereitstellung von genügend Ausgleichsflächen treffen."
+        }
+      ]
+    },
+    {
+      "id": "msr_11",
+      "content": {
+        "title": "Außenentwicklung: Flächenausweisung südlich der A 3 und im Stadtnorden vorbereiten",
+        "description": "Gezielte Vorbereitung und Prüfung von Flächen für Außenentwicklung, insbesondere Flächen südlich der Autobahn A 3 sowie in Teilen des Stadtnordens. Ergänzung: Konkretisierung der Prüf- und Vorbereitungsaufgaben für Außenentwicklung: besondere Prüfung von Flächen südlich der Autobahn A 3 und in Teilen des Stadtnordens sowie die Forderung, die Inanspruchnahme dieser Flächen planerisch, rechtlich und ökonomisch so bald wie möglich vorzubereiten."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 12,
+          "quote": "Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden."
+        },
+        {
+          "page_number": 12,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        },
+        {
+          "page_number": 13,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        },
+        {
+          "page_number": 14,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        },
+        {
+          "page_number": 15,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        },
+        {
+          "page_number": 16,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        },
+        {
+          "page_number": 17,
+          "quote": "Regensburg muss deshalb in den kommenden beiden Jahrzehnten auch in größerem Umfang Außenentwicklung betreiben. Dafür kommen vor allem Flächen südlich der Autobahn A 3 in Frage, aber auch Bereiche im Stadtnorden. Die Inanspruchnahme von Flächen im Außenbereich muss so bald als möglich planerisch, rechtlich und ökonomisch vorbereitet werden."
+        }
+      ]
+    },
+    {
+      "id": "msr_12",
+      "content": {
+        "title": "Schaffung großer Parkanlagen mittels Bebauungsplänen und Vorkaufsrecht",
+        "description": "Einsatz von Planungsinstrumenten (z. B. Bebauungspläne, Vorkaufsrecht) zur Schaffung und Sicherung großer, stadtweit bedeutsamer Parkanlagen an geeigneten Stellen."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.85
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 13,
+          "quote": "Es ist Aufgabe der Stadt, an den richtigen Stellen große Parkanlagen zu schaffen und von zur Verfügung stehenden Planungsinstrumenten (z. B. Bebauungspläne, Vorkaufsrecht) Gebrauch zu machen."
+        }
+      ]
+    },
+    {
+      "id": "msr_13",
+      "content": {
+        "title": "Abstimmung von Anpassungsstrategien in der Altstadt mit der Denkmalpflege",
+        "description": "Sicherstellung, dass strukturelle Veränderungen und Anpassungsstrategien in der Altstadt (z. B. Mobilität, Klimaanpassung) eng mit der Denkmalpflege abgestimmt werden, um den universellen Wert und die Unversehrtheit der Bausubstanz zu wahren.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 13,
+          "quote": "Sämtliche Veränderungen, auch Anpassungsstrategien an den Klimawandel, müssen dabei eng mit der Denkmalpflege abgestimmt werden."
+        }
+      ]
+    },
+    {
+      "id": "msr_14",
+      "content": {
+        "title": "Berücksichtigung gesundheitlicher Aspekte in Quartiersentwicklung",
+        "description": "Integration gesundheitlicher Aspekte in die Quartiersplanung, insbesondere Gebäudeausrichtung, Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung und Hitzeschutz zur Verbesserung der Lebensqualität für alle Generationen. Ergänzung: Konkretisierung gesundheitlicher Aspekte in der Quartiersentwicklung, u. a. Gebäudeausrichtung, Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung und Hitzeschutz sowie ausreichend Freiräume für unterschiedliche Altersgruppen.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 13,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        },
+        {
+          "page_number": 12,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        },
+        {
+          "page_number": 14,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        },
+        {
+          "page_number": 15,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        },
+        {
+          "page_number": 16,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        },
+        {
+          "page_number": 17,
+          "quote": "Gesundheitlichen Aspekten soll in der künftigen Planung eine noch höhere Bedeutung zukommen. Das sind neben ausreichend Freiräumen etwa auch die Gebäudeausrichtung und Rückzugsräume, Barrierefreiheit, Strategien zur Unfallvermeidung oder der Hitzeschutz."
+        }
+      ]
+    },
+    {
+      "id": "msr_15",
+      "content": {
+        "title": "Klimagerechter Umbau des Siedlungsbestandes",
+        "description": "Systematischer, klimagerechter Umbau bestehender Siedlungs- und Gebäudebestände zur Reduktion von Energieverbrauch und CO₂-Emissionen sowie zur Anpassung an Klimafolgen. Ergänzung: Beim klimagerechten Umbau des Siedlungsbestandes ist die soziale Abfederung zentral, z. B. durch sozialverträgliche energetische Sanierung von Wohngebäuden, um einkommensschwache Bevölkerungsschichten mitzunehmen und wirtschaftliche Überforderung zu verhindern.",
+        "parent_action_field_id": "af_4"
+      },
+      "connections": [
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.75
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 18,
+          "quote": "der Umbau des Siedlungsbestandes muss klimagerecht erfolgen"
+        },
+        {
+          "page_number": 24,
+          "quote": "Soziale Abfederung\nEinkommensschwache Bevölkerung mitnehmen\nSozialverträgliche energetische Sanierung von Wohngebäuden"
+        }
+      ]
+    },
+    {
+      "id": "msr_16",
+      "content": {
+        "title": "Klimafokussierte Quartiersentwicklung",
+        "description": "Quartiersentwicklungen konsequent unter Klima- und Anpassungsaspekten planen (z. B. Grünflächen, Ausrichtung von Gebäuden, Rückzugsräume, Barrierefreiheit) und Klimaanpassungsstrategien auf Quartiersniveau integrieren.",
+        "parent_action_field_id": "af_3"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 18,
+          "quote": "Quartiersentwicklungen müssen künftig verstärkt unter Klimaaspekten geplant werden"
+        }
+      ]
+    },
+    {
+      "id": "msr_17",
+      "content": {
+        "title": "Erhalt und Schaffung dezentraler, verkehrsvermeidender Strukturen",
+        "description": "Maßnahmen zur Bewahrung, Erweiterung und Neuschaffung dezentraler Versorgungs- und Wohnstrukturen mit dem Ziel der Verkehrsvermeidung und kurzen Wegen für tägliche Bedarfe.",
+        "parent_action_field_id": "af_6"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 18,
+          "quote": "dezentrale, verkehrsvermeidende Strukturen müssen konsequent bewahrt, ausgebaut bzw. geschaffen werden"
+        }
+      ]
+    },
+    {
+      "id": "msr_18",
+      "content": {
+        "title": "Kontinuierliches Sozialmonitoring",
+        "description": "Ein dauerhaftes Monitoring sozialer Entwicklungen zur Bewahrung des sozialen und gesellschaftlichen Zusammenhalts, zur frühzeitigen Erkennung von Problemlagen und zur Grundlage für sozialpolitische Maßnahmen.",
+        "parent_action_field_id": "af_11"
+      },
+      "connections": [
+        {
+          "target_id": "ind_3",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 18,
+          "quote": "Dafür braucht es gute Konzepte auf einer gemeinsamen Wertebasis und ein kontinuierliches Sozialmonitoring."
+        }
+      ]
+    },
+    {
+      "id": "msr_19",
+      "content": {
+        "title": "Aktive Bodenpolitik",
+        "description": "Entwicklung und Umsetzung einer aktiven Bodenpolitik als Instrument zur Steuerung von Flächenentwicklung und Sicherung von Flächen für Wohnen, Wirtschaft und Grünflächen im Sinne gemeinwohlorientierter Stadtentwicklung."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 21,
+          "quote": "Die Gestaltung der digitalen Transformation sowie eine aktive Bodenpolitik werden darüber hinaus als konkrete Aufgabenfelder benannt."
+        }
+      ]
+    },
+    {
+      "id": "msr_20",
+      "content": {
+        "title": "Stellplatzangebote im Stadtzentrum sukzessive reduzieren",
+        "description": "Sukzessive Reduzierung des Stellplatzangebots im Stadtzentrum zur Förderung des Umweltverbundes, zur Verkehrsvermeidung und zur Verringerung von Emissionen. Ergänzung: Stellplätze im öffentlichen Straßenraum sind zu verringern; Autofahrer aus dem Umland sollen bevorzugt an Park-&-Ride-Stationen am Stadtrand oder bereits an wohnortnahen Bahnhaltepunkten umsteigen, um den Umweltverbund zu stärken.",
+        "parent_action_field_id": "af_6"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.75
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 24,
+          "quote": "Stellplatzangebote im Stadtzentrum sukzessive reduzieren"
+        },
+        {
+          "page_number": 57,
+          "quote": "Parallel zum Ausbau der Radverkehrs- und ÖPNV-Infrastruktur sind die Stellplätze im öffentlichen Straßenraum zu verringern. Autofahrer aus dem Umland sollen bevorzugt an Park & Ride-Stationen am Stadtrand oder noch besser bereits an wohnortnahen Bahnhaltepunkten umsteigen."
+        }
+      ]
+    },
+    {
+      "id": "msr_21",
+      "content": {
+        "title": "Ausbau Quartiersmittelpunkt Frauenzellstraße",
+        "description": "Entwicklung und Ausgestaltung des Quartiersmittelpunkts an der Frauenzellstraße als lokalen Treff-, Versorgungs- und Begegnungsort zur Stärkung der Nahversorgung und Nachbarschaftsfunktionen.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 24 Frauenzellstraße"
+        }
+      ]
+    },
+    {
+      "id": "msr_22",
+      "content": {
+        "title": "Entwicklung Quartierskern Sallern (Sportgelände am Regen)",
+        "description": "Ausbau des vorgeschlagenen Quartierskerns in Sallern (Sportgelände am Regen) zur Stärkung von Nahversorgung, Infrastruktur und lokalen Begegnungsmöglichkeiten; Vorschlag erfolgte im Rahmen der Bürgerbeteiligung.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Der Standort für Sallern (Sportgelände am Regen) im Rahmen der Bürgerbeteiligung vorgeschlagen wurde."
+        }
+      ]
+    },
+    {
+      "id": "msr_23",
+      "content": {
+        "title": "Ausbau Quartiersmittelpunkt Stadtamhof",
+        "description": "Schaffung und Stärkung eines Quartiersmittelpunkts in Stadtamhof zur Verbesserung lokaler Versorgung und sozialer Infrastruktur.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 26 Stadtamhof"
+        }
+      ]
+    },
+    {
+      "id": "msr_24",
+      "content": {
+        "title": "Entwicklung Quartiersmittelpunkt Hochweg",
+        "description": "Gestaltung des Quartiersmittelpunkts Hochweg mit Fokus auf Nahversorgung, öffentlichen Räumen und Begegnungsmöglichkeiten.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 27 Hochweg"
+        }
+      ]
+    },
+    {
+      "id": "msr_25",
+      "content": {
+        "title": "Stärkung Quartierskern Prüfeninger Straße",
+        "description": "Maßnahmen zur Stärkung des Quartiersprüfeninger Straße als zentraler Ort der Nahversorgung und Nahversorgungsausstattung.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 28 Prüfeninger Straße"
+        }
+      ]
+    },
+    {
+      "id": "msr_26",
+      "content": {
+        "title": "Aufwertung Quartiersmittelpunkt Hohes Kreuz",
+        "description": "Aufwertung des Quartiersschwerpunkts Hohes Kreuz durch Verbesserungen der Versorgung, öffentlichen Räume und Nachbarschaftsinfrastruktur.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 29 Hohes Kreuz"
+        }
+      ]
+    },
+    {
+      "id": "msr_27",
+      "content": {
+        "title": "Entwicklung Balwinus-/Kirchmeierstraße als Quartiersmittelpunkt",
+        "description": "Förderung der Balwinus-/Kirchmeierstraße als Quartiersmittelpunkt mit Fokus auf Nahversorgung, Dienstleistungen und Begegnungsräumen.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 30 Balwinus-/Kirchmeierstraße"
+        }
+      ]
+    },
+    {
+      "id": "msr_28",
+      "content": {
+        "title": "Quartiersentwicklung Zeißstraße / Prinz-Leopold-Kaserne",
+        "description": "Planung und Entwicklung des Quartiers an der Zeißstraße (ehemalige Prinz-Leopold-Kaserne) als neuer quartiersbezogener Mittel­punkt mit gemischter Nutzung.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 31 Zeißstraße (Prinz-Leopold-Kaserne)"
+        },
+        {
+          "page_number": 33,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 31 Zeißstraße (Prinz-Leopold-Kaserne)"
+        }
+      ]
+    },
+    {
+      "id": "msr_29",
+      "content": {
+        "title": "Aufbau Quartiersmittelpunkt Fort-Skelly-Straße",
+        "description": "Entwicklung des Quartiersmittelpunkts Fort-Skelly-Straße zur Stärkung lokaler Versorgung und Gemeinschaftsangebote.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 32 Fort-Skelly-Straße"
+        }
+      ]
+    },
+    {
+      "id": "msr_30",
+      "content": {
+        "title": "Quartiersentwicklung Grunewaldstraße (Urbanes Gebiet)",
+        "description": "Gezielte Quartiersentwicklung im Urbanen Gebiet Grunewaldstraße zur Schaffung eines neuen Stadteingangs und zur Förderung von Nutzungsmischung und Aufenthaltsqualität.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 31,
+          "quote": "Mit dem Urbanen Gebiet Grunewaldstraße ... wird auch im Südosten ein neuer Stadteingang entstehen."
+        },
+        {
+          "page_number": 33,
+          "quote": "Mit dem Urbanen Gebiet Grunewaldstraße ... wird auch im Südosten ein neuer Stadteingang entstehen."
+        }
+      ]
+    },
+    {
+      "id": "msr_31",
+      "content": {
+        "title": "Entwicklung Quartiersmittelpunkt Burgweinting Nordwest",
+        "description": "Maßnahmen zur Herausbildung eines neuen Quartiersmittelpunkts in Burgweinting Nordwest zur Verbesserung lokaler Versorgung und Infrastruktur.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 34 Burgweinting Nordwest"
+        }
+      ]
+    },
+    {
+      "id": "msr_32",
+      "content": {
+        "title": "Quartiersmittelpunkt Oberisling entwickeln",
+        "description": "Entwicklung und Stärkung des Quartiersmittelpunkts Oberisling zur Verbesserung der Nahversorgung und sozialräumlichen Infrastruktur.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 32,
+          "quote": "Auszubauender/neuer Quartiersmittelpunkt • 35 Oberisling"
+        }
+      ]
+    },
+    {
+      "id": "msr_33",
+      "content": {
+        "title": "Umbenennung Freizeit- und Erholungsachse zu 'Freizeit und Kultur'",
+        "description": "Benennung und konzeptionelle Neuausrichtung der bisherigen Freizeit- und Erholungsachse als Achse 'Freizeit und Kultur', um die zunehmende kulturelle Prägung in Teilen dieser Achse zu berücksichtigen.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 33,
+          "quote": "Es macht deshalb Sinn, künftig die Freizeit- und Erholungsachse als Achse „Freizeit und Kultur“ zu benennen."
+        }
+      ]
+    },
+    {
+      "id": "msr_34",
+      "content": {
+        "title": "Stärkung kultureller Aktivitäten und Begegnungsräume in Stadtteilen",
+        "description": "Maßnahmen zur Intensivierung und Ermöglichung kultureller Aktivitäten in Stadtteilen sowie zur Schaffung von Räumen für nachbarschaftliche Begegnungen, Naherholung und Spiel- und Bewegungsflächen.",
+        "parent_project_id": "proj_8"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 33,
+          "quote": "Anliegen der Bürger ist zudem die Intensivierung und Ermöglichung kultureller Aktivitäten in den Stadtteilen."
+        }
+      ]
+    },
+    {
+      "id": "msr_35",
+      "content": {
+        "title": "Herstellungspflicht für Grünflächen je Einwohner und Grünflächenpool",
+        "description": "Umsetzung der per Stadtratsbeschluss verankerten Herstellungspflicht für Grünflächen je Einwohner; Ausgleich der Differenz zum Zielwert durch einen Grünflächenpool und die Herstellung von Parkanlagen zur Schaffung von Stadtteilgrün und Stadtgrün.",
+        "tags": [
+          "Freiraumentwicklung",
+          "Ausgleichsmechanismus"
+        ]
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 36,
+          "quote": "Zur Sicherung des Zielwerts von 20 Quadratmetern pro Einwohner an erholungsrelevanter Grünfläche verpflichtet sich die Stadt, die Differenz mittels Grünflächenpool bzw. Herstellung von Parkanlagen für die Erstellung von Stadtteilgrün und Stadtgrün auszugleichen."
+        },
+        {
+          "page_number": 37,
+          "quote": "Zur Sicherung des Zielwerts von 20 Quadratmetern pro Einwohner an erholungsrelevanter Grünfläche verpflichtet sich die Stadt, die Differenz mittels Grünflächenpool bzw. Herstellung von Parkanlagen für die Erstellung von Stadtteilgrün und Stadtgrün auszugleichen."
+        }
+      ]
+    },
+    {
+      "id": "msr_36",
+      "content": {
+        "title": "Freiflächengestaltungssatzung anwenden",
+        "description": "Formelles Planungsinstrument: Anwendung der Freiflächengestaltungssatzung als ergänzende verbindliche Regelung bei Bauanfragen zur Gestaltung unbebauter Flächen auf Bestandsgrundstücken.",
+        "tags": [
+          "Planungsinstrument",
+          "Freiraum"
+        ]
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 36,
+          "quote": "Die Freiflächengestaltungssatzung gibt zusätzlich zum Freiraumentwicklungskonzept als formelles Planungsinstrument bei jeder Bauanfrage verbindliche Regelungen für die Gestaltung der unbebauten Flächen der Bestandsgrundstücke vor."
+        }
+      ]
+    },
+    {
+      "id": "msr_37",
+      "content": {
+        "title": "Öffentliche Räume in städtischem Besitz belassen und entwickeln",
+        "description": "Sicherstellung, dass öffentliche Räume (Straßen, Plätze, Grünflächen) in städtischem Besitz verbleiben und aktiv im Rahmen kommunaler Planung entwickelt und unterhalten werden, um Aufenthaltsqualität und Gemeinschaftsfunktionen zu sichern.",
+        "tags": [
+          "Baukultur",
+          "Öffentlicher Raum"
+        ]
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 36,
+          "quote": "Um diese Ziele dauerhaft zu sichern, sollen öffentliche Räume in städtischem Besitz verbleiben und im Rahmen kommunaler Planung entwickelt und unterhalten werden."
+        }
+      ]
+    },
+    {
+      "id": "msr_38",
+      "content": {
+        "title": "Umsetzung des 15‑Minuten‑Stadtprinzips zur Quartiersversorgung",
+        "description": "Förderung von dezentralen Quartierszentren und einer Nahversorgungsstruktur, sodass Alltagswege zu Fuß oder mit dem Rad innerhalb von 15 Minuten erreichbar sind; Stärkung von Nahversorgung, Gesundheitsangeboten, Dienstleistungen und Freizeitmöglichkeiten auf Quartiersebene.",
+        "tags": [
+          "Quartiersentwicklung",
+          "Nahversorgung",
+          "Mobilitätsvermeidung"
+        ]
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 37,
+          "quote": "Zu Fuß oder mit dem Rad sind nach diesem Konzept alle Wege des Alltags innerhalb von 15 Minuten erreichbar."
+        },
+        {
+          "page_number": 38,
+          "quote": "Zu Fuß oder mit dem Rad sind nach diesem Konzept alle Wege des Alltags innerhalb von 15 Minuten erreichbar."
+        }
+      ]
+    },
+    {
+      "id": "msr_39",
+      "content": {
+        "title": "Dauerhafter Schutz ausgewählter Landschaftsräume an Stadträndern",
+        "description": "Festlegung und dauerhafter Erhalt ausgewählter Landschaftsräume an den Stadträndern, die von Bebauung freigehalten werden sollen; betrifft konkret Flächen südlich von Graß/Leoprechting/Oberisling/Burgweinting, nördlich der B 16 sowie nördlich von Oberwinzer."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Die vorhandenen Landschaftsräume südlich von Graß/Leoprechting/Oberisling/Burgweinting, nördlich der B 16 sowie nördlich von Oberwinzer werden deshalb dauerhaft erhalten und von Bebauung freigehalten."
+        }
+      ]
+    },
+    {
+      "id": "msr_40",
+      "content": {
+        "title": "Fortführung des Grüngürtels Süd‑Ost im Zuge der Siedlungserweiterung Burgweinting",
+        "description": "Bei der angedachten Siedlungserweiterung im Stadtsüden sind die im Zuge der Entwicklungsmaßnahme Burgweinting geschaffenen Freiraumqualitäten konsequent nach Westen (Grüngürtel Süd‑Ost) weiterzuführen, um grüne Verbindungselemente zu sichern."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Bei der angedachten Siedlungserweiterung im Stadtsüden sind die im Zuge der Entwicklungsmaßnahme Burgweinting geschaffenen Freiraumqualitäten konsequent nach Westen (Grüngürtel Süd‑Ost aus dem Teilraumgutachten 2005) weiterzuführen."
+        }
+      ]
+    },
+    {
+      "id": "msr_41",
+      "content": {
+        "title": "Dachbegrünungen und vertikales Grün in dicht bebauten Innenbereichen",
+        "description": "Förderung und Umsetzung von Dachbegrünungen und vertikalem Grün als Lösungsansatz zur Sicherstellung einer hochwertigen Grünversorgung dort, wo ebenerdige Flächen fehlen, insbesondere bei Nachverdichtungen im Bestand. Ergänzung: Dach- und Fassadenbegrünung sollen künftig als verbindliche Vorgabe bei künftigen Bauvorhaben berücksichtigt werden."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.75
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Dort, wo eine ausreichende ebenerdige Versorgung nicht möglich ist, können Dachbegrünungen oder vertikales Grün Lösungsansätze sein."
+        },
+        {
+          "page_number": 49,
+          "quote": "Dach- und Fassadenbegrünung als verbindliche Vorgabe bei künftigen Bauvorhaben."
+        }
+      ]
+    },
+    {
+      "id": "msr_42",
+      "content": {
+        "title": "Entsiegelung, Rückbau überdimensionierter Verkehrsräume und Schaffung von Pocket Parks",
+        "description": "Rückbau überdimensionierter Verkehrsräume mit dem Ziel, Flächen in Grün- oder Freiflächen umzuwandeln; Etablierung sogenannter Pocket Parks, kleiner Freiräume und Spielpunkte im städtischen Kontext als Maßnahmen zur Verbesserung des Bodenschutzes und der Lebensqualität. Ergänzung: Rückbau überdimensionierter Verkehrsräume und Umwandlung in Grün- bzw. Freiflächen (Pocket Parks). Im Text werden als Beispiele konkrete Straßen genannt, an denen Straßenraum rückgebaut bzw. neu aufgeteilt werden soll: Bayerwaldstraße, Adolf‑Schmetzer‑Straße, Clermont‑Ferrand‑Allee und Donaustaufer Straße."
+      },
+      "connections": [
+        {
+          "target_id": "ind_5",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Überdimensionierte Verkehrsräume sind rückzubauen, so dass in Teilen auch die Nutzung als Grün- oder Freifläche möglich ist. Die Etablierung sogenannter Pocket Parks, kleiner Freiräume und auch von Spielpunkten im städtischen Kontext sind hierfür mögliche Ansatzpunkte."
+        },
+        {
+          "page_number": 57,
+          "quote": "Wo immer möglich, müssen Straßenräume rückgebaut und entsiegelt werden, z. B. die Bayerwaldstraße, Adolf-Schmetzer-Straße, die Clermont-Ferrand-Allee oder die Donaustaufer Straße."
+        }
+      ]
+    },
+    {
+      "id": "msr_43",
+      "content": {
+        "title": "Dauerhafte Projektstelle 'Öffentlicher Raum' einrichten",
+        "description": "Implementierung einer dauerhaft eingerichteten Projektstelle 'Öffentlicher Raum', die als koordinierende Stelle für die Planung und Entwicklung öffentlicher Räume fungiert."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Da der öffentliche Raum durch sich ändernde Rahmenbedingungen ... sollte eine dauerhaft eingerichtete Projektstelle „Öffentlicher Raum“ implementiert werden."
+        }
+      ]
+    },
+    {
+      "id": "msr_44",
+      "content": {
+        "title": "Weiterführung städtebaulicher Wettbewerbe und Stärkung des Gestaltungsbeirats",
+        "description": "Fortführung und gezielte Nutzung städtebaulicher und objektbezogener Wettbewerbe als Instrument der Planungsqualität; fortgesetzte Einbindung des Gestaltungsbeirats zur kritischen Begleitung stadtbildprägender Bauvorhaben und zur Erhöhung der Akzeptanz und Nachvollziehbarkeit der Ergebnisse in der Bürgerschaft."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 40,
+          "quote": "Städtebauliche und objektbezogene Wettbewerbe – auch für öffentliche Räume – sind weiterhin ein wichtiges Instrument... Der Gestaltungsbeirat als seit über 20 Jahren bewährtes Beratungsorgan wird auch weiterhin stadtbildprägende Bauvorhaben kritisch begleiten."
+        }
+      ]
+    },
+    {
+      "id": "msr_45",
+      "content": {
+        "title": "Förderung von Innenhofbegrünungen in dicht bebauten Stadtteilen",
+        "description": "Gezielte Förderung und Umsetzung von Begrünungsmaßnahmen in Innenhöfen dichter Bebauung zur Verbesserung des Mikroklimas, Abkühlung und Förderung der Biodiversität.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Förderung von Innenhofbegrünungen in dicht bebauten Stadtteilen."
+        }
+      ]
+    },
+    {
+      "id": "msr_46",
+      "content": {
+        "title": "Freiflächen-Photovoltaikanlagen im Stadtnorden und entlang Hauptverkehrsadern",
+        "description": "Konzeption und Errichtung großflächiger Freiflächen-Photovoltaikflächen im Stadtnorden und entlang der Hauptverkehrsachsen zur Nutzung lokaler Solar-Potenziale.",
+        "parent_action_field_id": "af_4"
+      },
+      "connections": [
+        {
+          "target_id": "ind_8",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Freiflächen-Photovoltaikanlagen im Stadtnorden und entlang der Hauptverkehrsadern."
+        }
+      ]
+    },
+    {
+      "id": "msr_47",
+      "content": {
+        "title": "Windkraftanlagen an ausgewählten Standorten",
+        "description": "Prüfung und Errichtung von Windkraftanlagen an ausgewählten, geeigneten Standorten zur Deckung zusätzlicher erneuerbarer Energiebedarfe.",
+        "parent_action_field_id": "af_4"
+      },
+      "connections": [
+        {
+          "target_id": "ind_8",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Windkraftanlagen an ausgewählten Standorten."
+        }
+      ]
+    },
+    {
+      "id": "msr_48",
+      "content": {
+        "title": "Substituierung des fossilen Erdgaseinsatzes in der Stadt",
+        "description": "Strategien und Maßnahmen zur schrittweisen Substituierung fossilen Erdgasverbrauchs im Wärme- und Energiesektor durch erneuerbare oder dekarbonisierte Alternativen.",
+        "parent_action_field_id": "af_4"
+      },
+      "connections": [
+        {
+          "target_id": "ind_6",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 46,
+          "quote": "Substituierung des fossilen Erdgaseinsatzes in der Stadt,"
+        }
+      ]
+    },
+    {
+      "id": "msr_49",
+      "content": {
+        "title": "Einsparung und Steigerung der Energieeffizienz in Wirtschaft, Haushalten und Verkehr",
+        "description": "Maßnahmenpaket zur Einsparung von Energie und zur Steigerung der Energieeffizienz sektorübergreifend in Wirtschaft, privaten Haushalten und im Verkehr."
+      },
+      "connections": [
+        {
+          "target_id": "ind_7",
+          "confidence_score": 0.85
+        },
+        {
+          "target_id": "ind_1",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 46,
+          "quote": "Einsparung und Steigerung der Energieeffizienz in den Bereichen Wirtschaft, private Haushalte und Verkehr,"
+        }
+      ]
+    },
+    {
+      "id": "msr_50",
+      "content": {
+        "title": "Einsatz nachwachsender Baumaterialien bei städtischen Bau- und Sanierungsprojekten",
+        "description": "Bevorzugte Verwendung nachwachsender Baumaterialien, insbesondere Holz, bei kommunalen Bau- und Sanierungsvorhaben zur Reduktion von CO2‑Emissionen und Speicherung von Kohlenstoff.",
+        "parent_action_field_id": "af_3"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 48,
+          "quote": "Nachwachsende Baumaterialien einsetzen ... insbesondere Holz ... werden ... zukünftig vorrangig in der Planung und Realisierung berücksichtigt."
+        }
+      ]
+    },
+    {
+      "id": "msr_51",
+      "content": {
+        "title": "Starkregenmaßnahmen auf Basis von Planungsleitfäden und Starkregengefahrenkarte",
+        "description": "Umsetzung von Maßnahmen zur Reduzierung von Überflutungsschäden infolge Starkregen unter Nutzung vorhandener Planungsleitfäden und der Starkregengefahrenkarte.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Eine effiziente Anpassung der urbanen Infrastruktur an die sich ändernde Niederschlagscharakteristik ... Starkregenmaßnahmen auf Basis der Planungsleitfäden und der Starkregengefahrenkarte ... sind ebenfalls umzusetzen."
+        }
+      ]
+    },
+    {
+      "id": "msr_52",
+      "content": {
+        "title": "Unterstützung der Bevölkerung beim Eigenschutz gegen Starkregen und Überflutungen",
+        "description": "Programme und Informationsangebote zur Unterstützung privater Haushalte und Betriebe beim Eigenschutz gegen Starkregen‑bedingte Schäden.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Starkregenmaßnahmen auf Basis der Planungsleitfäden und der Starkregengefahrenkarte sowie eine wirksame Unterstützung der Bevölkerung beim Eigenschutz sind ebenfalls umzusetzen."
+        },
+        {
+          "page_number": 50,
+          "quote": "Starkregenmaßnahmen auf Basis der Planungsleitfäden und der Starkregengefahrenkarte sowie eine wirksame Unterstützung der Bevölkerung beim Eigenschutz sind ebenfalls umzusetzen."
+        }
+      ]
+    },
+    {
+      "id": "msr_53",
+      "content": {
+        "title": "Sicherstellung wirksamer Durchlüftung bebauter Stadtquartiere",
+        "description": "Planerische Maßnahmen und gestaltende Elemente (z. B. Bauminseln, Retentionsflächen, Entsiegelung) zur Förderung der Durchlüftung und des Abtransports warmer Luft aus Quartieren.",
+        "parent_action_field_id": "af_2"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 49,
+          "quote": "Eine wirksame Durchlüftung der bebauten Stadtquartiere soll für den Abtransport der warmen Luft sorgen"
+        }
+      ]
+    },
+    {
+      "id": "msr_54",
+      "content": {
+        "title": "Anpassung des Baumbestands durch klimaangepasste Baumarten",
+        "description": "Gezielter Ersatz und Nachpflanzung von Bäumen durch besser geeignete, klimaangepasste Arten an Straßen, Plätzen und in Parkanlagen, um Funktionsverlusten vorzubeugen.",
+        "parent_action_field_id": "af_5"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 45,
+          "quote": "Insbesondere im Straßenraum werden manche Baumarten in Zukunft komplett ausfallen bzw. müssen durch besser geeignete Arten ersetzt werden."
+        }
+      ]
+    },
+    {
+      "id": "msr_55",
+      "content": {
+        "title": "Bewässerungskonzepte für längere Trockenperioden",
+        "description": "Entwicklung und Umsetzung angepasster Bewässerungskonzepte für öffentliche Grünflächen und Bäume zur Sicherstellung der Versorgung während längerer Trockenphasen.",
+        "parent_action_field_id": "af_5"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 45,
+          "quote": "Längere Trockenphasen ... machen deutlich höhere Aufwendungen für die Bewässerung notwendig."
+        }
+      ]
+    },
+    {
+      "id": "msr_56",
+      "content": {
+        "title": "Revision der Baumschutzverordnung und Aktualisierung der Gebietskulisse",
+        "description": "Überprüfung und Aktualisierung der Baumschutzverordnung inklusive Aktualisierung der Gebietskulisse, um Schutzstatus und Pflegebedarf des Baumbestands zeitgemäß abzubilden.",
+        "parent_action_field_id": "af_5"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 51,
+          "quote": "Der Baumschutzverordnung der Stadt liegt inzwischen eine veraltete Gebietskulisse zugrunde."
+        }
+      ]
+    },
+    {
+      "id": "msr_57",
+      "content": {
+        "title": "Bereitstellung von Vorsorge‑ und Umsiedlungsflächen für geschützte Arten",
+        "description": "Sicherstellung geeigneter Vorsorgeflächen und Flächen für die Umsiedlung geschützter Arten als Ausgleichs- und Artenschutzmaßnahme bei Bebauung und Nachverdichtung.",
+        "parent_action_field_id": "af_5"
+      },
+      "connections": [
+        {
+          "target_id": "ind_9",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 51,
+          "quote": "Vorsorgeflächen bzw. Flächen für die Umsiedlung geschützter Arten fehlen häufig."
+        }
+      ]
+    },
+    {
+      "id": "msr_58",
+      "content": {
+        "title": "Ausbau von Park-&-Ride-Anlagen am Stadtrand und an wohnortnahen Bahnhaltepunkten",
+        "description": "Anlage und Erweiterung von Park-&-Ride-Flächen an Stadtrandstandorten und an wohnortnahen Bahnhaltepunkten, um Einpendler zum Umstieg auf den Umweltverbund zu bewegen; Verknüpfung mit Bus-/Bahnangeboten und Bike-&-Ride-Infrastruktur.",
+        "priority": "hoch"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 57,
+          "quote": "Autofahrer aus dem Umland sollen bevorzugt an Park & Ride-Stationen am Stadtrand oder noch besser bereits an wohnortnahen Bahnhaltepunkten umsteigen."
+        },
+        {
+          "page_number": 58,
+          "quote": "Autofahrer aus dem Umland sollen bevorzugt an Park & Ride-Stationen am Stadtrand oder noch besser bereits an wohnortnahen Bahnhaltepunkten umsteigen."
+        }
+      ]
+    },
+    {
+      "id": "msr_59",
+      "content": {
+        "title": "Interimsmaßnahmen zur Beschleunigung und Verbesserung des ÖPNV bis zur Inbetriebnahme der Stadtbahn",
+        "description": "Kurz- und mittelfristige Maßnahmen zur Erhöhung der Leistungsfähigkeit und Attraktivität des ÖPNV (Taktverdichtungen, Beschleunigungsmaßnahmen, prioritärer Verkehrsraum), solange die Stadtbahn noch in Planung bzw. im Bau ist.",
+        "priority": "hoch"
+      },
+      "connections": [
+        {
+          "target_id": "ind_2",
+          "confidence_score": 0.8
+        }
+      ],
+      "sources": [
+        {
+          "page_number": 56,
+          "quote": "Bis zur Inbetriebnahme der Stadtbahn bedarf es der kontinuierlichen Anpassung und Verbesserung des ÖPNV-Angebots."
+        },
+        {
+          "page_number": 57,
+          "quote": "Bis zur Inbetriebnahme der Stadtbahn bedarf es der kontinuierlichen Anpassung und Verbesserung des ÖPNV-Angebots."
+        }
+      ]
+    },
+    {
+      "id": "msr_60",
+      "content": {
+        "title": "Neubau Sallerner Regenbrücke",
+        "description": "Konkretes Infrastrukturvorhaben (im Mobilitätsübersichtsplan genannt): Bau einer neuen Sallerner Regenbrücke zur Verbesserung der innerstädtischen Verbindungen und Integration in das Verkehrsnetz.",
+        "priority": "mittel"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 58,
+          "quote": "Neubau Sallerner Regenbrücke (als Teil der geplanten Infrastruktur Mobilität, Karte S.58)."
+        }
+      ]
+    },
+    {
+      "id": "msr_61",
+      "content": {
+        "title": "Ausbau Nordgaustraße / Hafenspange",
+        "description": "Infrastrukturmaßnahme zur Verbesserung der stadträumlichen Erschließung und Anbindung (im Mobilitätsübersichtsplan genannt: Ausbau Nordgaustraße/Hafenspange).",
+        "priority": "mittel"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 58,
+          "quote": "Ausbau Nordgaustraße/ Hafenspange (im Mobilitätsübersichtsplan aufgeführt)."
+        }
+      ]
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ind_1",
+      "content": {
+        "title": "Ziel: Gesamtstädtische Klimaneutralität (Green Deal Regensburg)",
+        "description": "Ziel der Stadt Regensburg im Green Deal: gesamtstädtische Klimaneutralität. Ergänzung: Konkretisierung des Zieljahres für die gesamtstädtische Klimaneutralität.",
+        "unit": "Zieljahr / qualitativer Status",
+        "target_values": [
+          {
+            "year": 2035,
+            "value": "gesamtstädtisch klimaneutral"
+          },
+          {
+            "year": 2035,
+            "value": "gesamstädtische Klimaneutralität"
+          }
+        ],
+        "measurement_frequency": "einmalig (Zieljahr)",
+        "data_source": "Green Deal Regensburg",
+        "notes": "Ziel ist als Jahr/Status formuliert (2035: klimaneutral)."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 3,
+          "quote": "Mit dem Green Deal Regensburg hat sich die Stadt das ehrgeizige Ziel gesetzt, bereits 2035 gesamtstädtisch klimaneutral zu sein."
+        }
+      ]
+    },
+    {
+      "id": "ind_2",
+      "content": {
+        "title": "Anteil des Umweltverbundes am Modal Split",
+        "description": "Messgröße zur Erfassung des Anteils von ÖPNV, Rad- und Fußverkehr am gesamten Modal Split; dient der Bewertung der angestrebten Verschiebung zugunsten des Umweltverbundes gegenüber dem motorisierten Individualverkehr. Anteil des Umweltverbundes (Fuß, Rad, ÖPNV) am gesamten Modal Split. Ergänzung mit aktuellen Basiswerten und verbindlichen Zielvorgaben aus dem Regensburg-Plan: Basiswert und spezifische Zielwerte für Rad- und ÖPNV-/Fußverkehr.",
+        "measurement_frequency": "jährlich",
+        "unit": "Prozent",
+        "actual_values": [
+          {
+            "year": 2018,
+            "value": 59,
+            "note": "Modal Split Gesamt (Basis: Forschungsprojekt „Mobilität in Städten – SrV 2018\")"
+          },
+          {
+            "note": "Aktuell (im Text genannt)",
+            "value": 24,
+            "sub_indicator": "Radverkehrsanteil (gesamt)",
+            "unit": "Prozent"
+          },
+          {
+            "note": "Aktuell (im Text genannt, Binnenverkehr)",
+            "value": 27,
+            "sub_indicator": "Radverkehrsanteil (Binnenverkehr)",
+            "unit": "Prozent"
+          }
+        ],
+        "target_values": [
+          {
+            "year": 2040,
+            "value": 70,
+            "note": "Anteil Umweltverbund gesamt (Ziel: Anstieg um mindestens 11 Prozentpunkte auf 70 % bis 2040)"
+          },
+          {
+            "year": 2040,
+            "value": 30,
+            "note": "Ziel: Radverkehrsanteil bis 2040"
+          },
+          {
+            "year": 2040,
+            "value": 40,
+            "note": "Ziel: Anteil ÖPNV + Fußverkehr bis 2040"
+          }
+        ],
+        "data_source": "Regensburg-Plan (Abschnitt Mobilität, S.56-59)"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 3,
+          "quote": "Die Stadt Regensburg wird in den kommenden beiden Jahrzehnten große Anstrengungen unternehmen, den Anteil des Umweltverbundes bei der Mobilität gegenüber dem motorisierten Individualverkehr deutlich zu erhöhen."
+        },
+        {
+          "page_number": 56,
+          "quote": "Bis zum Jahr 2040 wird der Modal Split ... von derzeit 59 Prozent (Stand: Forschungsprojekt „Mobilität in Städten – SrV 2018\") um mindestens 11 Prozentpunkte auf 70 Prozent. Der Radverkehrsanteil soll dabei auf 30 Prozent und der Anteil des ÖPNV sowie des Fußverkehrs auf 40 % erhöht werden. Bereits jetzt beträgt der Radverkehrsanteil beachtliche 24 Prozent, im Binnenverkehr sogar 27 Prozent."
+        },
+        {
+          "page_number": 57,
+          "quote": "Bis zum Jahr 2040 wird der Modal Split ... von derzeit 59 Prozent (Stand: Forschungsprojekt „Mobilität in Städten – SrV 2018\") um mindestens 11 Prozentpunkte auf 70 Prozent. Der Radverkehrsanteil soll dabei auf 30 Prozent und der Anteil des ÖPNV sowie des Fußverkehrs auf 40 % erhöht werden. Bereits jetzt beträgt der Radverkehrsanteil beachtliche 24 Prozent, im Binnenverkehr sogar 27 Prozent."
+        },
+        {
+          "page_number": 58,
+          "quote": "Bis zum Jahr 2040 wird der Modal Split ... von derzeit 59 Prozent (Stand: Forschungsprojekt „Mobilität in Städten – SrV 2018\") um mindestens 11 Prozentpunkte auf 70 Prozent. Der Radverkehrsanteil soll dabei auf 30 Prozent und der Anteil des ÖPNV sowie des Fußverkehrs auf 40 % erhöht werden. Bereits jetzt beträgt der Radverkehrsanteil beachtliche 24 Prozent, im Binnenverkehr sogar 27 Prozent."
+        },
+        {
+          "page_number": 59,
+          "quote": "Bis zum Jahr 2040 wird der Modal Split ... von derzeit 59 Prozent (Stand: Forschungsprojekt „Mobilität in Städten – SrV 2018\") um mindestens 11 Prozentpunkte auf 70 Prozent. Der Radverkehrsanteil soll dabei auf 30 Prozent und der Anteil des ÖPNV sowie des Fußverkehrs auf 40 % erhöht werden. Bereits jetzt beträgt der Radverkehrsanteil beachtliche 24 Prozent, im Binnenverkehr sogar 27 Prozent."
+        }
+      ]
+    },
+    {
+      "id": "ind_3",
+      "content": {
+        "title": "Einwohnerzahl (Gesamt)",
+        "description": "Entwicklung der Einwohnerzahl der Stadt Regensburg (Vergleich 2006 und 2020). Ergänzung mit konkreten Zeitreihenwerten zum Vergleich 2006–2020. Ergänzung: Bevölkerungsprojektionen und -vorausberechnungen für Stadt und Landkreis Regensburg liegen für den Zeitraum 2021–2040 vor; die Projektionen wurden vom Bayerischen Landesamt für Statistik 2022 aufgeführt und vom Amt für Stadtentwicklung verwendet.",
+        "unit": "Einwohner",
+        "actual_values": [
+          {
+            "year": 2006,
+            "value": 143500
+          },
+          {
+            "year": 2020,
+            "value": 168500
+          }
+        ],
+        "measurement_frequency": "unregelmäßig (Referenzjahre im Text)",
+        "notes": "Anstieg der Einwohnerzahl von rund 143.500 (2006) um rund 25.000 auf 168.500 (2020), entspricht +17 %. Tabelle mit Projektionen 2021–2040 im Regensburg-Plan 2040 dokumentiert.",
+        "data_source": "Bayerisches Landesamt für Statistik 2022; Amt für Stadtentwicklung"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 16,
+          "quote": "Die Einwohnerzahl [stieg] um rund 25.000 auf 168.500 (+17 Prozent) (Zeitraum 2006 bis 2020)."
+        },
+        {
+          "page_number": 17,
+          "quote": "Allein im Zeitraum zwischen 2006 und 2020 ... die Einwohnerzahl um rund 25.000 auf 168.500 (+ 17 Prozent)."
+        },
+        {
+          "page_number": 19,
+          "quote": "Bevölkerungsvorausberechnung für Stadt und Landkreis Regensburg\nQuelle: Bayerisches Landesamt für Statistik 2022 | Amt für Stadtentwicklung"
+        }
+      ]
+    },
+    {
+      "id": "ind_4",
+      "content": {
+        "title": "Anzahl sozialversicherungspflichtig Beschäftigter",
+        "description": "Entwicklung der Zahl sozialversicherungspflichtig Beschäftigter in Regensburg (Referenzjahre 2006 und Ende 2020). Ergänzung mit konkreten Zeitreihenwerten zum Vergleich 2006–2020.",
+        "unit": "Personen. Anzahl sozialversicherungspflichtig Beschäftigter",
+        "actual_values": [
+          {
+            "year": 2006,
+            "value": 93000
+          },
+          {
+            "year": 2020,
+            "value": 126000
+          }
+        ],
+        "measurement_frequency": "unregelmäßig (Referenzjahre im Text)",
+        "notes": "Anstieg der sozialversicherungspflichtig Beschäftigten um ca. 33.000 auf knapp 126.000 Ende 2020, entspricht +36 %."
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 16,
+          "quote": "Zwischen 2006 und 2020 stieg die Zahl der sozialversicherungspflichtig Beschäftigten um ca. 33.000 auf knapp 126.000 Ende 2020 (+36 Prozent)."
+        },
+        {
+          "page_number": 17,
+          "quote": "Allein im Zeitraum zwischen 2006 und 2020 stieg die Zahl der sozialversicherungspflichtig Beschäftigten um ca. 33.000 auf knapp 126.000 Ende 2020 (+ 36 Prozent)."
+        }
+      ]
+    },
+    {
+      "id": "ind_5",
+      "content": {
+        "title": "Erholungsrelevante Grünfläche pro Einwohner (m²)",
+        "description": "Messung der erholungsrelevanten Grünfläche pro Einwohner zur Sicherung und Steuerung der Grünversorgung in der Stadt. Zielwert und Steuerungsgröße für die Versorgung mit erholungsrelevanter Grünfläche pro Einwohner. Im Text wird ein Zielwert von rund 20 Quadratmetern Grün- und Freifläche pro Einwohner als Erhaltungs- bzw. Zielgröße genannt; möglichst soll dieser Wert gesteigert werden.",
+        "unit": "Quadratmeter pro Einwohner",
+        "target_values": [
+          {
+            "year": null,
+            "value": 20
+          },
+          {
+            "year": null,
+            "value": 20,
+            "note": "Rund 20 Quadratmeter Grün- und Freifläche pro Einwohner als zu erhaltender bzw. anzustrebender Wert"
+          }
+        ],
+        "actual_values": [
+          {
+            "year": null,
+            "value": 20
+          }
+        ],
+        "measurement_frequency": "periodisch"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 35,
+          "quote": "Aktuell stehen jedem Stadtbewohner durchschnittlich 20 Quadratmeter an erholungsrelevanter Grünfläche zur Verfügung."
+        },
+        {
+          "page_number": 36,
+          "quote": "Aktuell stehen jedem Stadtbewohner durchschnittlich 20 Quadratmeter an erholungsrelevanter Grünfläche zur Verfügung."
+        },
+        {
+          "page_number": 40,
+          "quote": "Der im Freiflächenentwicklungskonzept ermittelte Wert von rund 20 Quadratmetern Grün- und Freifläche pro Einwohner muss in dieser Größenordnung bestehen bleiben, am besten aber gesteigert werden."
+        }
+      ]
+    },
+    {
+      "id": "ind_6",
+      "content": {
+        "title": "Anteil Erdgas am städtischen Wärmeverbrauch (2019)",
+        "description": "Anteil des Erdgasgebrauchs am gesamten Wärmeverbrauch im Stadtgebiet (Stand 2019).",
+        "unit": "Prozent",
+        "actual_values": [
+          {
+            "year": 2019,
+            "value": 84.6
+          }
+        ],
+        "measurement_frequency": "periodisch (Jahreswert)"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 41,
+          "quote": "Beinahe 85 Prozent der im Stadtgebiet benötigten Wärme wird aus dem Energieträger Erdgas erzeugt... Erdgas 84,6 %"
+        }
+      ]
+    },
+    {
+      "id": "ind_7",
+      "content": {
+        "title": "Jährliche CO2‑Emissionen des Stadtgebiets (gesamt)",
+        "description": "Gesamte jährliche Treibhausgasemissionen des Stadtgebiets (Jahreswert und Anteil am städtischen Emissionsgesamtaufkommen).",
+        "unit": "Tonnen CO2/Jahr",
+        "actual_values": [
+          {
+            "year": 2019,
+            "value": 470000,
+            "note": "Im Text als etwa 470.000 Tonnen CO2 pro Jahr angegeben; entspricht rund einem Drittel des gesamten Ausstoßes."
+          }
+        ],
+        "measurement_frequency": "jährlich"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 41,
+          "quote": "Dadurch werden pro Jahr etwa 470.000 Tonnen CO2 produziert, immerhin rund ein Drittel des gesamten Ausstoßes an Treibhausgasen."
+        }
+      ]
+    },
+    {
+      "id": "ind_8",
+      "content": {
+        "title": "Anteil erneuerbarer Energien am Endenergiebedarf",
+        "description": "Anteil der erneuerbaren Energien am Endenergiebedarf der Stadt Regensburg mit Zielwerten zur 2035‑Transformation.",
+        "unit": "Prozent",
+        "target_values": [
+          {
+            "year": 2035,
+            "value": 100,
+            "note": "Zielwert formuliert als 'nahezu 100 Prozent'"
+          }
+        ],
+        "measurement_frequency": "jährlich",
+        "data_source": "REWAG / Energienutzungspläne"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 48,
+          "quote": "Der Anteil erneuerbarer Energien am Endenergiebedarf der Stadt Regensburg soll bis zum Jahr 2035 schrittweise auf nahezu 100 Prozent erhöht werden."
+        }
+      ]
+    },
+    {
+      "id": "ind_9",
+      "content": {
+        "title": "Anteil naturschutzfachlicher Ausgleich im Bebauungsplangebiet",
+        "description": "Anteil der Fläche des naturschutzfachlichen Ausgleichs, die innerhalb des betroffenen Bebauungsplangebietes untergebracht wird. Ergänzung: Nach dem Regensburger Baulandmodell soll der naturschutzfachliche Ausgleich mindestens zu 50 Prozent im betroffenen Bebauungsplangebiet untergebracht werden.",
+        "unit": "Prozent",
+        "target_values": [
+          {
+            "year": null,
+            "value": 50,
+            "note": "Mindestanforderung gemäß Regensburger Baulandmodell"
+          },
+          {
+            "year": null,
+            "value": 50
+          }
+        ],
+        "measurement_frequency": "bei Bebauungsplanverfahren",
+        "data_source": "Regensburger Baulandmodell / Bauleitplanung"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 51,
+          "quote": "Nach dem Regensburger Baulandmodell ist der naturschutzfachliche Ausgleich mindestens zu 50 Prozent im betroffenen Bebauungsplangebiet unterzubringen."
+        },
+        {
+          "page_number": 51,
+          "quote": "Nach dem Regensburger Baulandmodell ist der naturschutzfachliche Ausgleich mindestens zu • 50 Prozent im betroffenen Bebauungsplangebiet unterzubringen."
+        }
+      ]
+    },
+    {
+      "id": "ind_10",
+      "content": {
+        "title": "Anteil emissionsfreier motorisierter Verkehr",
+        "description": "Messung des Anteils des motorisierten Verkehrs (PKW, LKW, Busse) der emissionsfrei betrieben wird; Ziel: vollständige Emissionsfreiheit des motorisierten Verkehrs in der Stadt.",
+        "unit": "Prozent",
+        "target_values": [
+          {
+            "value": 100,
+            "note": "Regelungsziel im Text: 'Jeglicher motorisierte Verkehr muss künftig emissionsfrei fahren.' Kein konkretes Jahr im Text genannt."
+          }
+        ],
+        "measurement_frequency": "jährlich",
+        "data_source": "Regensburg-Plan (Abschnitt Mobilität, S.56-59)"
+      },
+      "connections": [],
+      "sources": [
+        {
+          "page_number": 57,
+          "quote": "Jeglicher motorisierte Verkehr muss künftig emissionsfrei fahren."
+        }
+      ]
+    }
+  ]
+}

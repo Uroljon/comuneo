@@ -1,58 +1,54 @@
 import { useRef, useState } from "react";
 import "../style/ai.css";
 import { useDispatch } from "react-redux";
-import { getTheData } from "../utils/data";
+import { setExtractedData } from "../utils/data";
 import { useNavigate } from "react-router-dom";
 import Aside from "../component/Aside";
+import regensburgData from "../data/regensburg.json";
 
 function Ai() {
-  let dispatch = useDispatch();
-  const [isLoaded, setIsLoaded] = useState(true);
-  let input = useRef();
-  let navigate  = useNavigate()
+  const dispatch = useDispatch();
+  const [isLoading, setIsLoading] = useState(false);
+  const input = useRef();
+  const navigate = useNavigate();
+
   async function handleSubmit(e) {
     e.preventDefault();
-    setIsLoaded(false);
 
     const inputFile = input.current.files[0];
-
     if (!inputFile) {
-      console.log("No file received from input");
+      alert("Please select a file to upload");
       return;
     }
 
-    const formData = new FormData()
-    formData.append('file', inputFile)
+    // Start loading animation
+    setIsLoading(true);
 
-    let res = fetch("http://127.0.0.1:8000/upload", {
-      method: "POST",
-      body: formData,
-    });
-    if (res.status === 200) {
-      // handle JSON
-      console.log(res, "res test");
+    // Simulate processing time (5-8 seconds for demo)
+    const processingTime = 5000 + Math.random() * 3000;
 
-      fetch("http://127.0.0.1:8000/extract?source_id=20250907_121745_20655024_mulheim")
-        .then(res => res.json())
-        .then(data => console.log(data, "extracted"))
+    setTimeout(() => {
+      // In a real scenario, you could map different files to different JSON results
+      // For now, we'll use the regensburg data for any uploaded file
+      const mockData = regensburgData;
 
-    } else {
-      setTimeout(() => {
-        setIsLoaded(true);
-        console.log(isLoaded);
+      // Store the extracted data in Redux
+      dispatch(setExtractedData({
+        data: mockData,
+        fileName: inputFile.name,
+        processedAt: new Date().toISOString()
+      }));
 
-        dispatch(getTheData(isLoaded));
-        navigate("/result")
-
-      }, 5000);
-    }
+      // Navigate to results page
+      navigate("/result");
+    }, processingTime);
   }
 
   return (
     <div className="layout">
       <Aside />
       <main>
-        {!isLoaded && (
+        {isLoading && (
           <div className="loader">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
               <circle

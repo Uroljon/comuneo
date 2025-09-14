@@ -779,6 +779,46 @@
   margin-left: 4px;
 }
 
+/* Clickable connection styles */
+.connection-item.clickable,
+.connection-chip.clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.connection-item.clickable:hover {
+  background: #f0f4f8;
+  transform: translateX(2px);
+}
+
+.connection-item.clickable:hover .connection-name,
+.connection-chip.clickable:hover .entity-name {
+  text-decoration: underline;
+  color: #0d00ad;
+}
+
+.connection-chip.clickable:hover {
+  background: #f0f4f8;
+  transform: scale(1.02);
+}
+
+/* Highlight animation when navigating to an entity */
+@keyframes highlight-flash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(13, 0, 173, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(13, 0, 173, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(13, 0, 173, 0);
+  }
+}
+
+.highlight-animation {
+  animation: highlight-flash 2s ease-out;
+}
+
 /* Expandable Table Rows */
 .expandable-row {
   cursor: default;

@@ -100,6 +100,50 @@ function ResultPgae() {
     }));
   };
 
+  // Navigate to a specific entity by clicking on a connection
+  const navigateToEntity = (entityId) => {
+    // Determine entity type from ID prefix
+    let targetTab = '';
+    let expandFunction = null;
+
+    if (entityId.startsWith('af_')) {
+      targetTab = 'handlungsfelder';
+      expandFunction = () => setExpandedCards(prev => ({ ...prev, [entityId]: true }));
+    } else if (entityId.startsWith('proj_')) {
+      targetTab = 'projects';
+      expandFunction = () => setExpandedProjects(prev => ({ ...prev, [entityId]: true }));
+    } else if (entityId.startsWith('ind_')) {
+      targetTab = 'indicators';
+      expandFunction = () => setExpandedIndicators(prev => ({ ...prev, [entityId]: true }));
+    } else if (entityId.startsWith('msr_')) {
+      targetTab = 'measures';
+      expandFunction = () => setExpandedMeasures(prev => ({ ...prev, [entityId]: true }));
+    }
+
+    if (targetTab) {
+      // Switch to the appropriate tab
+      setActiveTab(targetTab);
+
+      // Expand the target entity
+      if (expandFunction) {
+        expandFunction();
+      }
+
+      // Scroll to the element after a short delay to allow tab switch
+      setTimeout(() => {
+        const element = document.getElementById(entityId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          // Add a highlight animation
+          element.classList.add('highlight-animation');
+          setTimeout(() => {
+            element.classList.remove('highlight-animation');
+          }, 2000);
+        }
+      }, 100);
+    }
+  };
+
   // Get all connections for an action field (both incoming and outgoing)
   const getActionFieldConnections = (actionFieldId) => {
     const connections = {
@@ -204,7 +248,7 @@ function ResultPgae() {
             const isExpanded = expandedCards[field.id];
 
             return (
-              <div key={field.id} className={`field-card ${isExpanded ? 'expanded' : ''}`}>
+              <div key={field.id} id={field.id} className={`field-card ${isExpanded ? 'expanded' : ''}`}>
                 <div className="card-header" onClick={() => toggleCard(field.id)}>
                   <input type="checkbox" className="field-checkbox" onClick={e => e.stopPropagation()} />
                   <h3>{field.content.title}</h3>
@@ -241,7 +285,11 @@ function ResultPgae() {
                                 <h5>Verknüpfte Handlungsfelder ({connections.otherActionFields.length})</h5>
                                 <div className="connection-list">
                                   {connections.otherActionFields.map(af => (
-                                    <div key={af.id} className={`connection-item ${af.direction}`}>
+                                    <div
+                                      key={af.id}
+                                      className={`connection-item ${af.direction} clickable`}
+                                      onClick={() => navigateToEntity(af.id)}
+                                    >
                                       <span className="connection-direction">
                                         {af.direction === 'incoming' ? '← ' : af.direction === 'outgoing' ? '→ ' : ''}
                                       </span>
@@ -258,7 +306,11 @@ function ResultPgae() {
                                 <h5>Projekte ({connections.projects.length})</h5>
                                 <div className="connection-list">
                                   {connections.projects.map(proj => (
-                                    <div key={proj.id} className={`connection-item ${proj.direction}`}>
+                                    <div
+                                      key={proj.id}
+                                      className={`connection-item ${proj.direction} clickable`}
+                                      onClick={() => navigateToEntity(proj.id)}
+                                    >
                                       <span className="connection-direction">
                                         {proj.direction === 'child' ? '↳ ' : '→ '}
                                       </span>
@@ -277,7 +329,11 @@ function ResultPgae() {
                                 <h5>Indikatoren ({connections.indicators.length})</h5>
                                 <div className="connection-list">
                                   {connections.indicators.map(ind => (
-                                    <div key={ind.id} className="connection-item outgoing">
+                                    <div
+                                      key={ind.id}
+                                      className="connection-item outgoing clickable"
+                                      onClick={() => navigateToEntity(ind.id)}
+                                    >
                                       <span className="connection-direction">→ </span>
                                       <span className="connection-name">{ind.content.title}</span>
                                       <span className="connection-confidence">{Math.round(ind.confidence * 100)}%</span>
@@ -292,7 +348,11 @@ function ResultPgae() {
                                 <h5>Maßnahmen ({connections.measures.length})</h5>
                                 <div className="connection-list">
                                   {connections.measures.map(msr => (
-                                    <div key={msr.id} className="connection-item outgoing">
+                                    <div
+                                      key={msr.id}
+                                      className="connection-item outgoing clickable"
+                                      onClick={() => navigateToEntity(msr.id)}
+                                    >
                                       <span className="connection-direction">→ </span>
                                       <span className="connection-name">{msr.content.title}</span>
                                       <span className="connection-confidence">{Math.round(msr.confidence * 100)}%</span>
@@ -379,7 +439,7 @@ function ResultPgae() {
             }
 
             return (
-              <div key={indicator.id} className={`indicator-card ${isExpanded ? 'expanded' : ''}`}>
+              <div key={indicator.id} id={indicator.id} className={`indicator-card ${isExpanded ? 'expanded' : ''}`}>
                 <div className="indicator-header" onClick={() => toggleIndicator(indicator.id)}>
                   <input type="checkbox" className="indicator-checkbox" onClick={e => e.stopPropagation()} />
                   <h3>{indicator.content.title}</h3>
@@ -575,7 +635,11 @@ function ResultPgae() {
                             <h5>Eingehende Verbindungen ({connections.incoming.length})</h5>
                             <div className="connection-list horizontal">
                               {connections.incoming.map((conn, idx) => (
-                                <div key={`incoming-${idx}`} className="connection-chip incoming">
+                                <div
+                                  key={`incoming-${idx}`}
+                                  className="connection-chip incoming clickable"
+                                  onClick={() => navigateToEntity(conn.source_id)}
+                                >
                                   <span className="connection-direction">← </span>
                                   <span className="entity-type">{conn.source_type}</span>
                                   <span className="entity-name">{conn.source_title}</span>
@@ -611,7 +675,11 @@ function ResultPgae() {
                                 }
 
                                 return connectedEntity && (
-                                  <div key={conn.target_id} className="connection-chip outgoing">
+                                  <div
+                                    key={conn.target_id}
+                                    className="connection-chip outgoing clickable"
+                                    onClick={() => navigateToEntity(conn.target_id)}
+                                  >
                                     <span className="connection-direction">→ </span>
                                     <span className="entity-type">{entityType}</span>
                                     <span className="entity-name">{connectedEntity.content.title}</span>
@@ -669,7 +737,7 @@ function ResultPgae() {
             const totalConnections = connections.outgoing.length + connections.incoming.length;
 
             return (
-              <div key={project.id} className={`field-card project-card ${isExpanded ? 'expanded' : ''}`}>
+              <div key={project.id} id={project.id} className={`field-card project-card ${isExpanded ? 'expanded' : ''}`}>
                 <div className="card-header" onClick={() => toggleProject(project.id)}>
                   <input type="checkbox" className="field-checkbox" onClick={e => e.stopPropagation()} />
                   <h3>{project.content.title}</h3>
@@ -731,7 +799,11 @@ function ResultPgae() {
                             <h5>Eingehende Verbindungen ({connections.incoming.length})</h5>
                             <div className="connection-list">
                               {connections.incoming.map((conn, idx) => (
-                                <div key={`incoming-${idx}`} className="connection-item incoming">
+                                <div
+                                  key={`incoming-${idx}`}
+                                  className="connection-item incoming clickable"
+                                  onClick={() => navigateToEntity(conn.source_id)}
+                                >
                                   <span className="connection-direction">← </span>
                                   <span className="connection-name">{conn.source_title}</span>
                                   <span className="connection-type">({conn.source_type})</span>
@@ -766,7 +838,11 @@ function ResultPgae() {
                                 }
 
                                 return connectedEntity && (
-                                  <div key={conn.target_id} className="connection-item outgoing">
+                                  <div
+                                    key={conn.target_id}
+                                    className="connection-item outgoing clickable"
+                                    onClick={() => navigateToEntity(conn.target_id)}
+                                  >
                                     <span className="connection-direction">→ </span>
                                     <span className="connection-name">{connectedEntity.content.title}</span>
                                     <span className="connection-type">({entityType})</span>
@@ -1024,7 +1100,7 @@ function ResultPgae() {
             const totalConnections = connections.outgoing.length + connections.incoming.length;
 
             return (
-              <div key={measure.id} className={`field-card measure-card ${isExpanded ? 'expanded' : ''}`}>
+              <div key={measure.id} id={measure.id} className={`field-card measure-card ${isExpanded ? 'expanded' : ''}`}>
                 <div className="card-header" onClick={() => toggleMeasure(measure.id)}>
                   <input type="checkbox" className="field-checkbox" onClick={e => e.stopPropagation()} />
                   <h3>{measure.content.title}</h3>
@@ -1080,7 +1156,11 @@ function ResultPgae() {
                             <h5>Eingehende Verbindungen ({connections.incoming.length})</h5>
                             <div className="connection-list">
                               {connections.incoming.map((conn, idx) => (
-                                <div key={`incoming-${idx}`} className="connection-item incoming">
+                                <div
+                                  key={`incoming-${idx}`}
+                                  className="connection-item incoming clickable"
+                                  onClick={() => navigateToEntity(conn.source_id)}
+                                >
                                   <span className="connection-direction">← </span>
                                   <span className="connection-name">{conn.source_title}</span>
                                   <span className="connection-type">({conn.source_type})</span>
@@ -1114,7 +1194,11 @@ function ResultPgae() {
                                 }
 
                                 return connectedEntity && (
-                                  <div key={conn.target_id} className="connection-item outgoing">
+                                  <div
+                                    key={conn.target_id}
+                                    className="connection-item outgoing clickable"
+                                    onClick={() => navigateToEntity(conn.target_id)}
+                                  >
                                     <span className="connection-direction">→ </span>
                                     <span className="connection-name">{connectedEntity.content.title}</span>
                                     <span className="connection-type">({entityType})</span>

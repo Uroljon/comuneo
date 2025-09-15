@@ -819,6 +819,45 @@
   animation: highlight-flash 2s ease-out;
 }
 
+/* Sources Preview in List View */
+.sources-preview {
+  margin-top: 12px;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border-left: 3px solid #5046e5;
+}
+
+.source-quote-compact {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.source-quote-compact:last-child {
+  margin-bottom: 0;
+}
+
+.source-quote-compact .page-ref {
+  color: #5046e5;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.quote-compact {
+  display: inline;
+  font-style: italic;
+  color: #4b5563;
+  margin: 0;
+  quotes: none;
+}
+
+.more-sources {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 12px;
+  font-style: italic;
+}
+
 /* Expandable Table Rows */
 .expandable-row {
   cursor: default;

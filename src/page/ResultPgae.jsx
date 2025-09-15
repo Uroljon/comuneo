@@ -100,6 +100,86 @@ function ResultPgae() {
     }));
   };
 
+  // Helper function to get project's parent action field
+  const getProjectParentActionField = (project) => {
+    // First check if parent_action_field_name exists
+    if (project.content.parent_action_field_name) {
+      return project.content.parent_action_field_name;
+    }
+
+    // Otherwise, find parent from incoming connections
+    const incomingConnections = [];
+
+    // Check all action fields for connections to this project
+    action_fields.forEach(af => {
+      (af.connections || []).forEach(conn => {
+        if (conn.target_id === project.id) {
+          incomingConnections.push({
+            title: af.content.title,
+            confidence: conn.confidence_score
+          });
+        }
+      });
+    });
+
+    // If we have incoming connections from action fields, use the one with highest confidence
+    if (incomingConnections.length > 0) {
+      // Sort by confidence score (highest first)
+      incomingConnections.sort((a, b) => b.confidence - a.confidence);
+      return incomingConnections[0].title;
+    }
+
+    return 'N/A';
+  };
+
+  // Helper function to group consecutive page quotes
+  const groupConsecutivePageQuotes = (sources) => {
+    if (!sources || sources.length === 0) return [];
+
+    // Group sources by quote text
+    const quoteGroups = {};
+    sources.forEach(source => {
+      const quote = source.quote;
+      if (!quoteGroups[quote]) {
+        quoteGroups[quote] = [];
+      }
+      quoteGroups[quote].push(source.page_number);
+    });
+
+    // Process each quote group
+    const groupedSources = [];
+    Object.entries(quoteGroups).forEach(([quote, pages]) => {
+      // Sort pages numerically
+      const sortedPages = pages.sort((a, b) => a - b);
+
+      // Group consecutive pages
+      const pageRanges = [];
+      let rangeStart = sortedPages[0];
+      let rangeEnd = sortedPages[0];
+
+      for (let i = 1; i < sortedPages.length; i++) {
+        if (sortedPages[i] === rangeEnd + 1) {
+          // Consecutive page, extend the range
+          rangeEnd = sortedPages[i];
+        } else {
+          // Not consecutive, save current range and start new one
+          pageRanges.push(rangeStart === rangeEnd ? `${rangeStart}` : `${rangeStart}-${rangeEnd}`);
+          rangeStart = sortedPages[i];
+          rangeEnd = sortedPages[i];
+        }
+      }
+      // Don't forget the last range
+      pageRanges.push(rangeStart === rangeEnd ? `${rangeStart}` : `${rangeStart}-${rangeEnd}`);
+
+      groupedSources.push({
+        pages: pageRanges.join(', '),
+        quote: quote
+      });
+    });
+
+    return groupedSources;
+  };
+
   // Navigate to a specific entity by clicking on a connection
   const navigateToEntity = (entityId) => {
     // Determine entity type from ID prefix
@@ -699,9 +779,9 @@ function ResultPgae() {
                     {indicator.sources && indicator.sources.length > 0 && (
                       <div className="indicator-sources">
                         <h4>Quellen</h4>
-                        {indicator.sources.map((source, idx) => (
+                        {groupConsecutivePageQuotes(indicator.sources).map((source, idx) => (
                           <div key={idx} className="source-quote">
-                            <span className="page-ref">Seite {source.page_number}:</span>
+                            <span className="page-ref">Seite{source.pages.includes(',') || source.pages.includes('-') ? 'n' : ''} {source.pages}:</span>
                             <blockquote>"{source.quote}"</blockquote>
                           </div>
                         ))}
@@ -747,7 +827,7 @@ function ResultPgae() {
                 <div className="card-stats">
                   <div className="stat">
                     <span className="stat-label">Handlungsfeld:</span>
-                    <span className="stat-value">{project.content.parent_action_field_name || 'N/A'}</span>
+                    <span className="stat-value">{getProjectParentActionField(project)}</span>
                   </div>
                   <div className="stat">
                     <span className="stat-label">Verbindungen:</span>
@@ -861,9 +941,9 @@ function ResultPgae() {
                     {project.sources && project.sources.length > 0 && (
                       <div className="sources-section">
                         <h4>Quellen</h4>
-                        {project.sources.map((source, idx) => (
+                        {groupConsecutivePageQuotes(project.sources).map((source, idx) => (
                           <div key={idx} className="source-quote">
-                            <span className="page-ref">Seite {source.page_number}:</span>
+                            <span className="page-ref">Seite{source.pages.includes(',') || source.pages.includes('-') ? 'n' : ''} {source.pages}:</span>
                             <blockquote>"{source.quote}"</blockquote>
                           </div>
                         ))}
@@ -1216,9 +1296,9 @@ function ResultPgae() {
                     {measure.sources && measure.sources.length > 0 && (
                       <div className="sources-section">
                         <h4>Quellen</h4>
-                        {measure.sources.map((source, idx) => (
+                        {groupConsecutivePageQuotes(measure.sources).map((source, idx) => (
                           <div key={idx} className="source-quote">
-                            <span className="page-ref">Seite {source.page_number}:</span>
+                            <span className="page-ref">Seite{source.pages.includes(',') || source.pages.includes('-') ? 'n' : ''} {source.pages}:</span>
                             <blockquote>"{source.quote}"</blockquote>
                           </div>
                         ))}

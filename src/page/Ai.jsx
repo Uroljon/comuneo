@@ -5,6 +5,7 @@ import { setExtractedData } from "../utils/data";
 import { useNavigate } from "react-router-dom";
 import Aside from "../component/Aside";
 import regensburgData from "../data/regensburg.json";
+import muehlheimData from "../data/muehlheim.json";
 
 function Ai() {
   const dispatch = useDispatch();
@@ -28,9 +29,16 @@ function Ai() {
     const processingTime = 5000 + Math.random() * 3000;
 
     setTimeout(() => {
-      // In a real scenario, you could map different files to different JSON results
-      // For now, we'll use the regensburg data for any uploaded file
-      const mockData = regensburgData;
+      // Check filename to determine which data to use
+      const fileName = inputFile.name.toLowerCase();
+      let mockData;
+
+      if (fileName.includes('muehlheim')) {
+        mockData = muehlheimData;
+      } else {
+        // Default fallback to regensburg for any other file
+        mockData = regensburgData;
+      }
 
       // Store the extracted data in Redux
       dispatch(setExtractedData({

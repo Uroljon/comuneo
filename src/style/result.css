@@ -188,6 +188,17 @@
   flex: 0 0 calc(33.333% - 14px);
 }
 
+/* Root Handlungsfeld Styling */
+.field-card.root-handlungsfeld {
+  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  border: 2px solid #f59e0b;
+  box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.1), 0 2px 4px -1px rgba(245, 158, 11, 0.06);
+}
+
+.field-card.root-handlungsfeld:hover {
+  box-shadow: 0 10px 15px -3px rgba(245, 158, 11, 0.15), 0 4px 6px -2px rgba(245, 158, 11, 0.08);
+}
+
 .field-card:hover {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
@@ -204,6 +215,26 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 16px;
+}
+
+.card-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.root-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #d97706;
+  background: #fef3c7;
+  padding: 2px 8px;
+  border-radius: 12px;
+  width: fit-content;
 }
 
 .field-checkbox,

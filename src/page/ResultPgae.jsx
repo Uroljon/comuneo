@@ -310,10 +310,36 @@ function ResultPgae() {
   };
 
   const renderHandlungsfelder = () => {
+    // Identify the root Handlungsfeld (one with only outgoing connections to other AFs)
+    const isRootHandlungsfeld = (field) => {
+      // Check if this field has many outgoing connections to other AFs
+      const outgoingToAFs = (field.connections || []).filter(conn =>
+        conn.target_id.startsWith('af_')
+      ).length;
+
+      // Check if any other AF connects to this one
+      const hasIncomingFromAFs = action_fields.some(af =>
+        af.id !== field.id &&
+        (af.connections || []).some(conn => conn.target_id === field.id)
+      );
+
+      // Root has many outgoing connections and no incoming from other AFs
+      return outgoingToAFs > 10 && !hasIncomingFromAFs;
+    };
+
     const filteredFields = action_fields.filter(field =>
       field.content.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       field.content.description.toLowerCase().includes(searchTerm.toLowerCase())
     );
+
+    // Sort to put root first
+    const sortedFields = [...filteredFields].sort((a, b) => {
+      const aIsRoot = isRootHandlungsfeld(a);
+      const bIsRoot = isRootHandlungsfeld(b);
+      if (aIsRoot && !bIsRoot) return -1;
+      if (!aIsRoot && bIsRoot) return 1;
+      return 0;
+    });
 
     return (
       <div className="handlungsfelder-container">
@@ -323,15 +349,26 @@ function ResultPgae() {
         </div>
 
         <div className="cards-grid">
-          {filteredFields.map(field => {
+          {sortedFields.map(field => {
             const counts = getChildCounts(field.id, field.content.title);
             const isExpanded = expandedCards[field.id];
+            const isRoot = isRootHandlungsfeld(field);
 
             return (
-              <div key={field.id} id={field.id} className={`field-card ${isExpanded ? 'expanded' : ''}`}>
+              <div key={field.id} id={field.id} className={`field-card ${isExpanded ? 'expanded' : ''} ${isRoot ? 'root-handlungsfeld' : ''}`}>
                 <div className="card-header" onClick={() => toggleCard(field.id)}>
                   <input type="checkbox" className="field-checkbox" onClick={e => e.stopPropagation()} />
-                  <h3>{field.content.title}</h3>
+                  {isRoot ? (
+                    <div className="card-title-wrapper">
+                      <span className="root-badge">
+                        <i className="fas fa-crown"></i>
+                        Übergeordnetes Handlungsfeld
+                      </span>
+                      <h3>{field.content.title}</h3>
+                    </div>
+                  ) : (
+                    <h3>{field.content.title}</h3>
+                  )}
                   <button className="expand-btn">{isExpanded ? '▼' : '▶'}</button>
                 </div>
 

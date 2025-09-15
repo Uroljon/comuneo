@@ -26,49 +26,29 @@ function ResultPgae() {
 
   const { action_fields = [], projects = [], indicators = [], measures = [] } = extractedData;
 
-  // Group projects and measures by parent action field
+  // Count direct connections from action field
   const getChildCounts = (actionFieldId, actionFieldTitle) => {
-    // Find projects that belong to this action field by parent_action_field_name
-    const childProjects = projects.filter(p =>
-      p.content.parent_action_field_name === actionFieldTitle
-    );
-
     // Get connections from this action field
     const actionField = action_fields.find(af => af.id === actionFieldId);
     const directConnections = actionField?.connections || [];
 
-    // Find projects directly connected from this action field
-    const connectedProjectIds = directConnections
+    // Count direct connections by type
+    const projectCount = directConnections
       .filter(c => c.target_id.startsWith('proj_'))
-      .map(c => c.target_id);
+      .length;
 
-    // Combine both child projects and connected projects (remove duplicates)
-    const allProjectIds = new Set([
-      ...childProjects.map(p => p.id),
-      ...connectedProjectIds
-    ]);
+    const measureCount = directConnections
+      .filter(c => c.target_id.startsWith('msr_'))
+      .length;
 
-    // Find all measures connected to these projects
-    const relatedMeasureIds = new Set();
-    projects
-      .filter(p => allProjectIds.has(p.id))
-      .forEach(project => {
-        (project.connections || []).forEach(conn => {
-          if (conn.target_id.startsWith('msr_')) {
-            relatedMeasureIds.add(conn.target_id);
-          }
-        });
-      });
-
-    // Count indicators directly connected to this action field
-    const connectedIndicatorIds = directConnections
+    const indicatorCount = directConnections
       .filter(c => c.target_id.startsWith('ind_'))
-      .map(c => c.target_id);
+      .length;
 
     return {
-      projects: allProjectIds.size,
-      measures: relatedMeasureIds.size,
-      indicators: connectedIndicatorIds.length
+      projects: projectCount,
+      measures: measureCount,
+      indicators: indicatorCount
     };
   };
 

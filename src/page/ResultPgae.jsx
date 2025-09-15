@@ -478,16 +478,56 @@ function ResultPgae() {
       ind.content.description?.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
+    // Helper function to check if a value is numeric
+    const isNumericValue = (value) => {
+      if (!value) return false;
+      // Remove common units and check if numeric
+      const cleaned = value.toString().replace(/[%€$,\s]/g, '');
+      return !isNaN(parseFloat(cleaned)) && isFinite(cleaned);
+    };
+
+    // Helper function to parse numeric value
+    const parseNumericValue = (value) => {
+      if (!value) return 0;
+      const cleaned = value.toString().replace(/[%€$,\s]/g, '');
+      return parseFloat(cleaned) || 0;
+    };
+
+    // Helper function to filter valid data points for graphing
+    const filterValidDataPoints = (dataPoints) => {
+      if (!dataPoints || dataPoints.length === 0) return [];
+
+      return dataPoints.filter(d => {
+        // Must have valid year and numeric value
+        const hasValidYear = d.year && d.year !== 'N/A' && !isNaN(parseInt(d.year));
+        const hasNumericValue = isNumericValue(d.value);
+        return hasValidYear && hasNumericValue;
+      });
+    };
+
+    // Helper function to get qualitative data points
+    const getQualitativeDataPoints = (dataPoints) => {
+      if (!dataPoints || dataPoints.length === 0) return [];
+
+      return dataPoints.filter(d => {
+        // Either has invalid year or non-numeric value
+        const hasInvalidYear = !d.year || d.year === 'N/A' || isNaN(parseInt(d.year));
+        const hasNonNumericValue = !isNumericValue(d.value);
+        return hasInvalidYear || hasNonNumericValue;
+      });
+    };
+
     // Helper function to create SVG line graph
     const createLineGraph = (dataPoints, isTarget = false) => {
-      if (!dataPoints || dataPoints.length === 0) return null;
+      const validPoints = filterValidDataPoints(dataPoints);
+      if (validPoints.length === 0) return null;
 
       // Sort by year
-      const sorted = [...dataPoints].sort((a, b) => (a.year || 0) - (b.year || 0));
+      const sorted = [...validPoints].sort((a, b) => parseInt(a.year) - parseInt(b.year));
 
       // Find min/max for scaling
-      const values = sorted.map(d => parseFloat(d.value) || 0);
-      const years = sorted.map(d => d.year || 0);
+      const values = sorted.map(d => parseNumericValue(d.value));
+      const years = sorted.map(d => parseInt(d.year));
       const minValue = Math.min(...values);
       const maxValue = Math.max(...values);
       const minYear = Math.min(...years);
@@ -495,11 +535,14 @@ function ResultPgae() {
 
       // Create points for SVG
       const points = sorted.map((d, i) => {
+        const year = parseInt(d.year);
+        const value = parseNumericValue(d.value);
+
         const x = years.length > 1
-          ? 10 + (180 * ((d.year - minYear) / (maxYear - minYear || 1)))
+          ? 10 + (180 * ((year - minYear) / (maxYear - minYear || 1)))
           : 100; // Center if single point
         const y = values.length > 1 && maxValue !== minValue
-          ? 90 - (70 * ((parseFloat(d.value) - minValue) / (maxValue - minValue)))
+          ? 90 - (70 * ((value - minValue) / (maxValue - minValue)))
           : 50; // Middle if single point or all same value
         return `${x},${y}`;
       }).join(' ');
@@ -521,18 +564,33 @@ function ResultPgae() {
             const totalConnections = connections.outgoing.length + connections.incoming.length;
             const actualValues = indicator.content.actual_values || [];
             const targetValues = indicator.content.target_values || [];
-            const hasMultipleActual = actualValues.length > 1;
-            const hasMultipleTarget = targetValues.length > 1;
+
+            // Separate numeric and qualitative data
+            const validActualValues = filterValidDataPoints(actualValues);
+            const validTargetValues = filterValidDataPoints(targetValues);
+            const qualitativeActualValues = getQualitativeDataPoints(actualValues);
+            const qualitativeTargetValues = getQualitativeDataPoints(targetValues);
+
+            const hasMultipleActual = validActualValues.length > 1;
+            const hasMultipleTarget = validTargetValues.length > 1;
+            const hasNumericData = validActualValues.length > 0 || validTargetValues.length > 0;
+            const hasQualitativeData = qualitativeActualValues.length > 0 || qualitativeTargetValues.length > 0;
             const hasData = actualValues.length > 0 || targetValues.length > 0;
 
-            // Get latest values
-            const latestActual = actualValues[actualValues.length - 1];
-            const latestTarget = targetValues[targetValues.length - 1];
+            // Get latest valid values for progress calculation
+            const latestActual = validActualValues[validActualValues.length - 1];
+            const latestTarget = validTargetValues[validTargetValues.length - 1];
 
-            // Calculate progress
+            // Calculate progress only for numeric values
             let progress = 0;
-            if (latestTarget?.value && latestActual?.value) {
-              progress = (parseFloat(latestActual.value) / parseFloat(latestTarget.value)) * 100;
+            let canShowProgress = false;
+            if (latestTarget && latestActual && isNumericValue(latestTarget.value) && isNumericValue(latestActual.value)) {
+              const actualNum = parseNumericValue(latestActual.value);
+              const targetNum = parseNumericValue(latestTarget.value);
+              if (targetNum > 0) {
+                progress = (actualNum / targetNum) * 100;
+                canShowProgress = true;
+              }
             }
 
             return (
@@ -557,60 +615,189 @@ function ResultPgae() {
                 <div className="indicator-content">
                   {hasData ? (
                     <div className="chart-area">
-                      {/* Show graph if we have multiple data points */}
-                      {(hasMultipleActual || hasMultipleTarget) ? (
+                      {/* Show graph only if we have valid numeric data with multiple points */}
+                      {hasNumericData && (hasMultipleActual || hasMultipleTarget) ? (
                         <div className="real-chart">
-                          <svg viewBox="0 0 200 100" className="data-graph">
-                            {/* Grid lines */}
-                            <line x1="10" y1="90" x2="190" y2="90" stroke="#e5e7eb" strokeWidth="1" />
-                            <line x1="10" y1="50" x2="190" y2="50" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="2,2" />
-                            <line x1="10" y1="10" x2="190" y2="10" stroke="#e5e7eb" strokeWidth="1" />
+                          <svg viewBox="0 0 240 120" className="data-graph">
+                            {(() => {
+                              // Calculate data ranges for axis labels
+                              const allValidData = [...validActualValues, ...validTargetValues];
+                              const years = allValidData.map(d => parseInt(d.year)).filter(y => !isNaN(y));
+                              const values = allValidData.map(d => parseNumericValue(d.value));
 
-                            {/* Actual values line */}
-                            {hasMultipleActual && (
-                              <polyline
-                                fill="none"
-                                stroke="#10b981"
-                                strokeWidth="2"
-                                points={createLineGraph(actualValues)}
-                              />
-                            )}
+                              const minYear = Math.min(...years);
+                              const maxYear = Math.max(...years);
+                              const minValue = Math.min(...values);
+                              const maxValue = Math.max(...values);
+                              const midValue = (minValue + maxValue) / 2;
 
-                            {/* Target values line */}
-                            {hasMultipleTarget && (
-                              <polyline
-                                fill="none"
-                                stroke="#3b82f6"
-                                strokeWidth="2"
-                                strokeDasharray="5,3"
-                                points={createLineGraph(targetValues)}
-                              />
-                            )}
+                              // Format value with unit
+                              const formatValue = (val) => {
+                                const rounded = Math.round(val * 10) / 10;
+                                return indicator.content.unit ? `${rounded}${indicator.content.unit}` : rounded.toString();
+                              };
 
-                            {/* Single points */}
-                            {!hasMultipleActual && actualValues.length === 1 && (
-                              <circle cx="100" cy="50" r="4" fill="#10b981" />
+                              return (
+                                <>
+                                  {/* Grid lines */}
+                                  <line x1="35" y1="90" x2="215" y2="90" stroke="#e5e7eb" strokeWidth="1" />
+                                  <line x1="35" y1="50" x2="215" y2="50" stroke="#e5e7eb" strokeWidth="1" strokeDasharray="2,2" />
+                                  <line x1="35" y1="10" x2="215" y2="10" stroke="#e5e7eb" strokeWidth="1" />
+
+                                  {/* Y-axis labels */}
+                                  <text x="30" y="13" textAnchor="end" fontSize="10" fill="#6b7280">
+                                    {formatValue(maxValue)}
+                                  </text>
+                                  <text x="30" y="53" textAnchor="end" fontSize="10" fill="#6b7280">
+                                    {formatValue(midValue)}
+                                  </text>
+                                  <text x="30" y="93" textAnchor="end" fontSize="10" fill="#6b7280">
+                                    {formatValue(minValue)}
+                                  </text>
+
+                                  {/* X-axis labels */}
+                                  {years.length > 0 && (
+                                    <>
+                                      <text x="35" y="110" textAnchor="middle" fontSize="10" fill="#6b7280">
+                                        {minYear}
+                                      </text>
+                                      {maxYear !== minYear && (
+                                        <>
+                                          {maxYear - minYear > 2 && (
+                                            <text x="125" y="110" textAnchor="middle" fontSize="10" fill="#6b7280">
+                                              {Math.round((minYear + maxYear) / 2)}
+                                            </text>
+                                          )}
+                                          <text x="215" y="110" textAnchor="middle" fontSize="10" fill="#6b7280">
+                                            {maxYear}
+                                          </text>
+                                        </>
+                                      )}
+                                    </>
+                                  )}
+
+                                  {/* Update line positions to match new coordinate system */}
+                                  {hasMultipleActual && (() => {
+                                    const points = validActualValues
+                                      .sort((a, b) => parseInt(a.year) - parseInt(b.year))
+                                      .map(d => {
+                                        const year = parseInt(d.year);
+                                        const value = parseNumericValue(d.value);
+                                        const x = years.length > 1
+                                          ? 35 + (180 * ((year - minYear) / (maxYear - minYear || 1)))
+                                          : 125;
+                                        const y = values.length > 1 && maxValue !== minValue
+                                          ? 90 - (80 * ((value - minValue) / (maxValue - minValue)))
+                                          : 50;
+                                        return `${x},${y}`;
+                                      }).join(' ');
+
+                                    return (
+                                      <polyline
+                                        fill="none"
+                                        stroke="#10b981"
+                                        strokeWidth="2"
+                                        points={points}
+                                      />
+                                    );
+                                  })()}
+
+                                  {/* Target values line */}
+                                  {hasMultipleTarget && (() => {
+                                    const points = validTargetValues
+                                      .sort((a, b) => parseInt(a.year) - parseInt(b.year))
+                                      .map(d => {
+                                        const year = parseInt(d.year);
+                                        const value = parseNumericValue(d.value);
+                                        const x = years.length > 1
+                                          ? 35 + (180 * ((year - minYear) / (maxYear - minYear || 1)))
+                                          : 125;
+                                        const y = values.length > 1 && maxValue !== minValue
+                                          ? 90 - (80 * ((value - minValue) / (maxValue - minValue)))
+                                          : 50;
+                                        return `${x},${y}`;
+                                      }).join(' ');
+
+                                    return (
+                                      <polyline
+                                        fill="none"
+                                        stroke="#3b82f6"
+                                        strokeWidth="2"
+                                        strokeDasharray="5,3"
+                                        points={points}
+                                      />
+                                    );
+                                  })()}
+                                </>
+                              );
+                            })()}
+
+                            {/* Single numeric points */}
+                            {!hasMultipleActual && validActualValues.length === 1 && (
+                              <>
+                                <circle cx="125" cy="50" r="6" fill="#10b981" />
+                                <text x="125" y="38" textAnchor="middle" fontSize="12" fill="#10b981" fontWeight="600">
+                                  {validActualValues[0].value}
+                                </text>
+                              </>
                             )}
-                            {!hasMultipleTarget && targetValues.length === 1 && (
-                              <circle cx="100" cy="50" r="4" fill="#3b82f6" />
+                            {!hasMultipleTarget && validTargetValues.length === 1 && (
+                              <>
+                                <circle cx="125" cy="50" r="6" fill="#3b82f6" />
+                                <text x="125" y={validActualValues.length === 1 ? "70" : "38"} textAnchor="middle" fontSize="12" fill="#3b82f6" fontWeight="600">
+                                  {validTargetValues[0].value}
+                                </text>
+                              </>
                             )}
                           </svg>
 
                           <div className="chart-legend">
-                            {actualValues.length > 0 && (
+                            {validActualValues.length > 0 && (
                               <span className="legend-item">
                                 <span className="legend-dot actual"></span> Ist-Wert
                               </span>
                             )}
-                            {targetValues.length > 0 && (
+                            {validTargetValues.length > 0 && (
                               <span className="legend-item">
                                 <span className="legend-dot target"></span> Ziel-Wert
                               </span>
                             )}
                           </div>
                         </div>
-                      ) : (
-                        /* Show single value prominently */
+                      ) : hasNumericData && validActualValues.length === 1 && validTargetValues.length === 0 ? (
+                        /* Show single numeric value prominently */
+                        <div className="single-value-display">
+                          <div className="value-box actual">
+                            <span className="value-label">Aktuell</span>
+                            <span className="value-number">
+                              {validActualValues[0].value}
+                              {indicator.content.unit && (
+                                <span className="value-unit"> {indicator.content.unit}</span>
+                              )}
+                            </span>
+                            {validActualValues[0].year && (
+                              <span className="value-year">({validActualValues[0].year})</span>
+                            )}
+                          </div>
+                        </div>
+                      ) : hasNumericData && validTargetValues.length === 1 && validActualValues.length === 0 ? (
+                        /* Show single target value prominently */
+                        <div className="single-value-display">
+                          <div className="value-box target">
+                            <span className="value-label">Ziel</span>
+                            <span className="value-number">
+                              {validTargetValues[0].value}
+                              {indicator.content.unit && (
+                                <span className="value-unit"> {indicator.content.unit}</span>
+                              )}
+                            </span>
+                            {validTargetValues[0].year && (
+                              <span className="value-year">({validTargetValues[0].year})</span>
+                            )}
+                          </div>
+                        </div>
+                      ) : hasNumericData ? (
+                        /* Show both single values */
                         <div className="single-value-display">
                           {latestActual && (
                             <div className="value-box actual">
@@ -641,10 +828,40 @@ function ResultPgae() {
                             </div>
                           )}
                         </div>
+                      ) : (
+                        /* Show qualitative data as styled text */
+                        <div className="qualitative-display">
+                          {qualitativeActualValues.length > 0 && (
+                            <div className="qualitative-section">
+                              <h5 className="qualitative-label">Ist-Wert</h5>
+                              {qualitativeActualValues.map((val, idx) => (
+                                <div key={idx} className="qualitative-item">
+                                  {val.year && val.year !== 'N/A' && (
+                                    <span className="qualitative-year">{val.year}:</span>
+                                  )}
+                                  <span className="qualitative-value">{val.value}</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                          {qualitativeTargetValues.length > 0 && (
+                            <div className="qualitative-section">
+                              <h5 className="qualitative-label">Ziel-Wert</h5>
+                              {qualitativeTargetValues.map((val, idx) => (
+                                <div key={idx} className="qualitative-item">
+                                  {val.year && val.year !== 'N/A' && (
+                                    <span className="qualitative-year">{val.year}:</span>
+                                  )}
+                                  <span className="qualitative-value">{val.value}</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
                       )}
 
-                      {/* Progress bar if we have both actual and target */}
-                      {latestActual && latestTarget && (
+                      {/* Progress bar only if we have valid numeric values */}
+                      {canShowProgress && (
                         <div className="progress-section">
                           <div className="progress-bar">
                             <div

@@ -437,6 +437,52 @@
   margin-bottom: 16px;
 }
 
+/* Qualitative Data Display */
+.qualitative-display {
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.qualitative-section {
+  margin-bottom: 16px;
+}
+
+.qualitative-section:last-child {
+  margin-bottom: 0;
+}
+
+.qualitative-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.qualitative-item {
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qualitative-year {
+  font-weight: 600;
+  color: #5046e5;
+  min-width: 45px;
+}
+
+.qualitative-value {
+  color: #374151;
+  font-size: 14px;
+  flex: 1;
+}
+
 .value-box {
   text-align: center;
   padding: 16px;
